@@ -1,0 +1,324 @@
+/* Style all font awesome icons */
+body {
+	width: 960px;
+	box-sizing: border-box;
+	
+}
+.container {
+	background-color: white;
+	width: 960px;
+	align-items: center;
+
+}
+/* Add a hover effect if you want */
+.fa a:hover {
+    opacity: 0.7;
+}
+.fa {
+	float: right;
+	position: relative;
+	top: -720px;
+	right: 80px;
+	background-color: #ffffff;
+	width: 270px;
+	height: 170px;
+	color: #4aaaa5;
+	font-size: 24px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	border: solid lightgray 1px;
+}
+.connect {
+	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	position: relative;
+	top: 200px;
+	right: 200px;
+	height: 170px;
+	width: 270px;
+	border: solid lightgray 1px;
+	padding: 20px 20px 0 20px;
+	display: block;
+}
+.connect2 {
+	float: right;
+	position: relative;
+	top: -2063px;
+	right: 30px;
+	background-color: #ffffff;
+	width: 300px;
+	height: 170px;
+	color: #4aaaa5;
+	font-size: 24px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	padding: 20px 0 0 0;
+	border: solid lightgray 1px;
+}
+h2 {
+	color: #4aaaa5;
+	font-size: 24px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#selfie {
+	height: 240px;
+	width: 320px;
+	padding-bottom: 10px;
+}
+/* Set a specific color for each brand 
+}
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    height: 40px;
+    width: 40px;
+    margin: 5px 15px 5px 15px;
+    position: relative;
+    top: -35px;
+    right: 309px;
+}
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+	height: 40px;
+	width: 40px;
+	margin: 5px 15px 5px 15px;
+	position: relative;
+    top: -35px;
+    right: 70px;
+}
+.fa-instagram {
+	background: #125688;
+	color: white;
+	height: 40px;
+	width: 40px;
+	margin: 5px 15px 5px 15px;
+	position: relative;
+    top: -35px;
+    right: 80px;	
+}
+.socialmedia {
+	position: relative;
+	right: -155px;
+	top: 50px;
+	display: inline-block;
+}
+header {
+	background-color: #ffffff;
+	width: 960px;
+	height: 75px;
+	border-bottom: solid lightgray 2px;
+}
+#aboutme {
+	background-color: white;
+	width: 360px;
+	height: 700px;
+	line-height: 1em;
+	margin: 40px 0 20px 200px;
+	padding: 10px 20px 10px 20px;
+	border: solid lightgray 1px;
+}
+.name {
+	font-size: 24px;
+	margin-left: 200px;
+	background-color: #4aaaa5;
+	padding: 13px 30px 10px 30px;
+	margin-right: 550px;
+	color: white;
+	height: 74px;
+}	
+.links a {
+	position: relative;
+	top: -45px;
+	right: 30px;
+	float: right;
+	font-size: 20px;
+	color: lightgray;
+	margin: 0 20px 0 20px;
+}
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+a .about {
+	font-size: 30px;
+}
+.portfolio {
+	background-color: white;
+	position: relative;
+	left: 200px;
+	margin: 40px 0 10px 0;
+	width: 360px;
+	height: 100%;
+	border: solid lightgray 1px;
+	padding: 10px 20px 10px 20px;
+}
+.portfolioheader {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	font-style: bold;
+}
+
+.form {
+	width: 250px;
+	margin: 30px 0 0 0;
+	position: relative;
+	margin: 40px 0 0 200px;
+	padding: 10px 20px 10px 20px;
+	box-shadow: 2px 3px 5px #888888;
+	background-color: white;
+
+}
+.btn-default {
+	height: 50px;
+	width: 110px;
+	background-color: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	margin: 40px 0 0 200px;
+	padding: 10px 20px 10px 20px;
+	font-style: bold;
+	font-size: 20px
+}
+#thelight {
+	height: 275px;
+	width: 360px;
+	position: relative;
+	right: 0px;
+	top: 25px;
+}
+.HK {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 0 20px 0;
+	width: 360px;
+	height: 22px;
+	z-index: top;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: -75px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#ShellHaus {
+	height: 275px;
+	width: 360px;
+	position: relative;
+	right: 0px;
+	top: -35px;
+}	
+.ShellHaus {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 0 20px 0;
+	width: 360px;
+	height: 22px;
+	z-index: top;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: -135px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#Hangzhou {
+	height: 275px;
+	width: 360px;
+	position: relative;
+	right: 0px;
+	top: -95px;
+}
+.Hangzhou {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 0 20px 0;
+	width: 360px;
+	height: 22px;
+	z-index: top;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: -195px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#Amsterdam {
+	height: 275px;
+	width: 360px;
+	position: relative;
+	right: 0px;
+	top: -155px;
+}
+.Amsterdam {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 0 20px 0;
+	width: 360px;
+	height: 22px;
+	z-index: top;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: -255px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#Groningen {
+	height: 275px;
+	width: 360px;
+	position: relative;
+	right: 0px;
+	top: -215px;
+}
+.Groningen {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 0 20px 0;
+	width: 360px;
+	height: 22px;
+	z-index: top;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: -315px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+footer {
+	position: relative;
+	background-color: darkgray;
+	color: white;
+	border-top: solid #4aaaa5 3px;
+	width: 100%;
+	height: 75px;
+	display: block;
+	text-align: center;
+	padding: 30px 0 0 0;
+	margin-top: 20px;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+.wrapper {
+	width: 100%;
+	padding: 0;
+}
+@media only screen and (max-width: 640px) { 
+	header .name #container .links {
+		width: 100%;
+		display: block;
+	}
+}
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+	header .name #container .links {
+		width: 100%;
+		display: block;
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+		header .name #container .links {
+			width: 100%;
+			display: block;
+		}
+}
+@media only screen and ()
+
