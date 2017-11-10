@@ -139,7 +139,7 @@ header {
 	border: solid lightgray 1px;
 }
 .name {
-	font-size: 24px;
+	font-size: 30px;
 	margin-left: 200px;
 	background-color: #2bbbad;
 	padding: 13px 30px 10px 30px;
@@ -252,11 +252,11 @@ footer {
     width: 200px;
     text-align: center;
     font-family: 'Lobster Two', cursive;
-    font-size: 24px;
-	height: 68px;
+    font-size: 30px;
+	/* height: 68px; */
 	color: white;
-	margin-left: 115px !important;
-	padding-top: 25px;
+	margin-left: 100px !important;
+	/* padding-top: 15px; */
 }
 .navbar-nav {
 	color: #2bbbad;
