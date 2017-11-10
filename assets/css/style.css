@@ -2,15 +2,35 @@
 body {
 	width: 100%;
 	box-sizing: border-box;
-	
+	background-image: url("../images/concrete-texture.png");
 }
-.container {
+div.container-fluid {
 	background-color: rgb(248, 248, 248);
-	width: 100%;
 	align-items: center;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding: 10px;
+}
+.navbar {
+	width: 100%;
+	background-color: #2bbbad;
+	margin-bottom: 0;
+}
+.main-content {
+	background-image: url("../images/concrete-texture.png");
 
 }
-
+.clickTrip {
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.defriendr {
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.card-text {
+	font-size: 20px !important;
+}
 /* Add a hover effect if you want */
 .fa a:hover {
     opacity: 0.7;
@@ -23,7 +43,7 @@ body {
 	background-color: #ffffff;
 	width: 270px;
 	height: 170px;
-	color: #4aaaa5;
+	color: #2bbbad;
 	font-size: 25px;
 	font-family: 'Lobster Two', cursive;
 	text-align: center;
@@ -33,7 +53,7 @@ body {
 .connect {
 	background-color: #ffffff;
 	font-family: 'Lobster Two', cursive;
-	color: #4aaaa5;
+	color: #2bbbad;
 	position: relative;
 	top: 200px;
 	right: 200px;
@@ -44,7 +64,7 @@ body {
 	display: block;
 }
 .panel-header {
-	color: #4aaaa5;
+	color: #2bbbad;
 	font-family: 'Lobster Two', cursive; 
 	text-align: center;
 	margin-top: 20px;
@@ -58,7 +78,7 @@ body {
 	background-color: #ffffff;
 	width: 300px;
 	height: 170px;
-	color: #4aaaa5;
+	color: #2bbbad;
 	font-size: 24px;
 	font-family: 'Lobster Two', cursive;
 	text-align: center;
@@ -66,7 +86,7 @@ body {
 	border: solid lightgray 1px;
 }
 h2 {
-	color: #4aaaa5;
+	color: #2bbbad;
 	font-size: 24px;
 	font-family: 'Lobster Two', cursive;
 }
@@ -122,7 +142,7 @@ header {
 .name {
 	font-size: 24px;
 	margin-left: 200px;
-	background-color: #4aaaa5;
+	background-color: #2bbbad;
 	padding: 13px 30px 10px 30px;
 	margin-right: 550px;
 	color: white;
@@ -133,7 +153,7 @@ header {
 	right: 30px;
 	float: right;
 	font-size: 15px;
-	color: lightgray !important;
+	color: #2bbbad !important;
 	margin: 0 20px 0 20px;
 	padding-top: 20px;
 }
@@ -179,114 +199,14 @@ a .about {
 .btn-default {
 	height: 50px;
 	width: 110px;
-	background-color: #4aaaa5;
-	font-family: 'Lobster Two', cursive;
+	background-color: #2bbbad;
 	color: white;
 	margin: 40px 0 0 200px;
-	padding: 10px 20px 10px 20px;
-	font-style: bold;
-	font-size: 20px
+	padding: 10px 5px 5px 5px !important;
+	font-size: 12px !important;
+	vertical-align: center !important;
 }
-#thelight {
-	height: 275px;
-	width: 360px;
-	position: relative;
-	right: 0px;
-	top: 25px;
-}
-.HK {
-	background-color: #4aaaa5;
-	color: white;
-	padding: 10px 0 20px 0;
-	width: 360px;
-	height: 22px;
-	z-index: top;
-	text-align: center;
-	font-size: 30px;
-	position: relative;
-	top: -75px;
-	font-family: 'Lobster Two', cursive;
-}
-#ShellHaus {
-	height: 275px;
-	width: 360px;
-	position: relative;
-	right: 0px;
-	top: -35px;
-}	
-.ShellHaus {
-	background-color: #4aaaa5;
-	color: white;
-	padding: 10px 0 20px 0;
-	width: 360px;
-	height: 22px;
-	z-index: top;
-	text-align: center;
-	font-size: 30px;
-	position: relative;
-	top: -135px;
-	font-family: 'Lobster Two', cursive;
-}
-#Hangzhou {
-	height: 275px;
-	width: 360px;
-	position: relative;
-	right: 0px;
-	top: -95px;
-}
-.Hangzhou {
-	background-color: #4aaaa5;
-	color: white;
-	padding: 10px 0 20px 0;
-	width: 360px;
-	height: 22px;
-	z-index: top;
-	text-align: center;
-	font-size: 30px;
-	position: relative;
-	top: -195px;
-	font-family: 'Lobster Two', cursive;
-}
-#Amsterdam {
-	height: 275px;
-	width: 360px;
-	position: relative;
-	right: 0px;
-	top: -155px;
-}
-.Amsterdam {
-	background-color: #4aaaa5;
-	color: white;
-	padding: 10px 0 20px 0;
-	width: 360px;
-	height: 22px;
-	z-index: top;
-	text-align: center;
-	font-size: 30px;
-	position: relative;
-	top: -255px;
-	font-family: 'Lobster Two', cursive;
-}
-#Groningen {
-	height: 275px;
-	width: 360px;
-	position: relative;
-	right: 0px;
-	top: -215px;
-}
-.Groningen {
-	background-color: #4aaaa5;
-	color: white;
-	padding: 10px 0 20px 0;
-	width: 360px;
-	height: 22px;
-	z-index: top;
-	text-align: center;
-	font-size: 30px;
-	position: relative;
-	top: -315px;
-	font-family: 'Lobster Two', cursive;
-}
+
 footer {
 	position: relative;
 	background-color: #666666;
@@ -296,7 +216,7 @@ footer {
 	height: 75px;
 	display: block;
 	text-align: center;
-	border-top: solid #4aaaa5 2px;
+	border-top: solid #2bbbad 2px;
 	margin-top: 20px;
 	font-size: 18px;
 	margin-bottom: 0;
@@ -328,7 +248,7 @@ footer {
 
 /* Title */
 .navbar-brand {
-    background-color: #4aaaa5;
+    background-color: #2bbbad;
     width: 200px;
     text-align: center;
     font-family: 'Lobster Two', cursive;
@@ -337,4 +257,11 @@ footer {
 	color: white;
 	margin-left: 115px !important;
 	padding-top: 25px;
+}
+.navbar-nav {
+	color: #2bbbad;
+	margin-right: 0;
+}
+.navbar-collapse {
+	align-content: center;
 }
