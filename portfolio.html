@@ -15,94 +15,117 @@
         type='text/css' media='all' />
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="MDB/css/mdb.min.css">
 
 </head>
 
-<body style="background-image: url(assets/images/concrete-texture.png);">
-    <nav class="navbar navbar-expand-md navbar-light gray lighten-4">
-        <div class="container">
+<body>
+    <nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-dark green-gradient">
+        <!-- <div class="container"> -->
             <a class="navbar-brand" href="index.html">Eric Willard</a>
-
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+                <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
 
                 <!-- Links -->
-                <ul id="navbar-links" class="navbar-nav mr-auto navbar-right list-inline">
-                    <li class="nav-item list-inline-item">
-                        <a class="nav-link" href="index.html">About |
+                <ul class="navbar-nav navbar-right list-inline">
+                    <li class="nav-item list-item-inline">
+                        <a class="nav-link" href="index.html">About
                         </a>
                     </li>
-                    <li class="nav-item list-inline-item">
-                        <a class="nav-link" href="portfolio.html"> Portfolio |</a>
+                    <li class="nav-item list-item-inline">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item list-inline-item">
+                    <li class="nav-item list-item-inline">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
+                <!-- links -->
+
             </div>
-        </div>
+        <!-- </div> -->
     </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-3 col-lg-offset-1 col-xl-6 col-xl-offset-2">
+    <div class="container-fluid">
+        <div class="row main-content">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-5 col-lg-offset-1">
                 <div class="panel panel-default" style="background-color: white; border: solid lightgray 1px;">
-                    <div class="panel panel-header text-center">Portfolio</div>
-                    <div class="row" id="box-search">
-                        <div class="thumbnail text-center">
-                            <img class="img-responsive" src="assets/images/CNHKTheLight6.jpg" alt="thelight;">
+                    <div class="panel panel-header text-center">
+                        Portfolio
+                    </div>
+                </div>   
+                    <!--Card-->
+                    <div class="card clickTrip">
+
+                        <!--Card image-->
+                        <img class="img-fluid" src="assets/images/clicktripUI.png" alt="Card image cap">
+
+                        <!--Card content-->
+                        <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">clickTrip</h4>
+                        <!--Text-->
+                        <p class="card-text">A travel website geared towards the travel photographer and those inspired to see new things through photography</p>
+                        <a href="https://ewill20.github.io/clicktrip/" class="btn btn-default">Visit clickTrip</a>
                         </div>
+
                     </div>
-                    <div class="panel panel-default">
-                        <img class="img-responsive" id="ShellHaus" src="assets/images/BerlinShellHausDoneOrange2.jpg">
+                    <!--/.Card-->
+                   
+                    <!--Card-->
+                    <div class="card defriendr">
+                            
+                        <!--Card image-->
+                        <img class="img-fluid" src="assets/images/defriendrUI.jpg" alt="Card image cap">
+                            
+                        <!--Card content-->
+                        <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">defriendr</h4>
+                        <!--Text-->
+                        <p class="card-text">An interactive web application designed like a game to help you figure out how well you know your friends and identify other friends you no longer wish to be friends with on Facebook</p>
+                        <a href="https://still-plateau-84168.herokuapp.com/" class="btn btn-default">Start defriending!</a>
+                        </div>
+                            
+                        </div>
+                        <!--/.Card-->
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="panel panel-default">
+                    <div class="panel panel-header">
+                        Connect With Me
                     </div>
-                    <div class="panel panel-default">
-                        <img class="img-responsive" id="Hangzhou" src="assets/images/CNEveWL2.jpg">
-                    </div>
-                    <div class="panel panel-default">
-                        <img class="img-responsive" id="Amsterdam" src="assets/images/NLAmsterdamCanalScape2.jpg">
-                    </div class="panel panel-default">
-                    <div class="panel panel-body">
-                        <img class="img-responsive" id="Groningen" src="assets/images/NLGroningenColors1.jpg">
+                    <div class="panel panel-body" style="text-align: center;">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/willarderic/">
+                                    <img src="assets/images/linkedin.png" alt="linkedin" class="linkedin" style="height: 60px; width: 60px;">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.github.com/ewill20">
+                                    <img src="assets/images/githubicon.png" alt="github" class="github" style="height: 60px; width: 60px">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.500px.com/ewill20">
+                                    <img src="assets/images/500px.png" alt="500px" class="500px" style="height: 70px; width: 70px;">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.viewbug.com/member/ewill">
+                                    <img src="assets/images/viewbug.jpg" alt="Viewbug" class="Viewbug" style="height: 60px; width: 60px; display: inline-block; border-radius: 60px; box-shadow: 0px 0px 2px #888;">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/ewill20">
+                                    <img src="assets/images/InstagramNew.jpg" alt="Instagram" class="Instagram" style="height: 60px; width: 60px;">
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <div class="panel panel-default">
-                <div class="panel panel-header">
-                    Connect With Me
-                </div>
-                <div class="panel panel-body" style="text-align: center;">
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/willarderic/">
-                                <img src="assets/images/linkedin.png" alt="linkedin" class="linkedin" style="height: 60px; width: 60px;">
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.github.com/ewill20">
-                                <img src="assets/images/githubicon.png" alt="github" class="github" style="height: 60px; width: 60px">
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.500px.com/ewill20">
-                                <img src="assets/images/500px.png" alt="500px" class="500px" style="height: 70px; width: 70px;">
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.viewbug.com/member/ewill">
-                                <img src="assets/images/viewbug.jpg" alt="Viewbug" class="Viewbug" style="height: 60px; width: 60px; display: inline-block; border-radius: 60px; box-shadow: 0px 0px 2px #888;">
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com/ewill20">
-                                <img src="assets/images/InstagramNew.jpg" alt="Instagram" class="Instagram" style="height: 60px; width: 60px;">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         </div>
     </div>
     <footer class="footer">
