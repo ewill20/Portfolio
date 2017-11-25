@@ -77,6 +77,11 @@ div.container-fluid {
 	font-family: 'Acme', sans-serif;
 	color: #777;
 }
+#English, #German, #French, #Chinese {
+	font-size: 18px;
+	font-family: 'Acme', sans-serif;
+	color: rgb(86, 86, 87);
+}
 .navbar {
 	width: 100%;
 	background-color: #ff4500;
