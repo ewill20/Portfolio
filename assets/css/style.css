@@ -44,14 +44,14 @@ div.container-fluid {
 	
 	color: #2bbbad;
 	font-size: 25px;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Acme', sans-serif;
 	text-align: center;
 	padding: 10px 20px 10px 20px;
 	border: solid lightgray 1px;
 }
 .connect {
 	background-color: #ffffff;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Acme', sans-serif;
 	color: #2bbbad;
 	position: relative;
 	top: 200px;
@@ -64,7 +64,7 @@ div.container-fluid {
 }
 .panel-header {
 	color: #2bbbad;
-	font-family: 'Lobster Two', cursive; 
+	font-family: 'Acme', sans-serif; 
 	text-align: center;
 	margin-top: 20px;
 	font-size: 30px;
@@ -79,7 +79,7 @@ div.container-fluid {
 	height: 170px;
 	color: #2bbbad;
 	font-size: 24px;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Acme', sans-serif;
 	text-align: center;
 	padding: 20px 0 0 0;
 	border: solid lightgray 1px;
@@ -87,7 +87,7 @@ div.container-fluid {
 h2 {
 	color: #2bbbad;
 	font-size: 24px;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Acme', sans-serif;
 }
 /* Set a specific color for each brand 
 }
@@ -161,7 +161,7 @@ header {
 	margin-bottom: 0;
 }
 p {
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Acme', sans-serif;
 	color: #777777;
 	font-size: 20px;
 }
@@ -180,7 +180,7 @@ a .about {
 }
 .portfolioheader {
 	color: #4aaaa5;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Acme', sans-serif;
 	font-size: 24px;
 	font-style: bold;
 }
@@ -220,7 +220,7 @@ footer {
 	margin-top: 20px;
 	font-size: 18px;
 	margin-bottom: 0;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Acme', sans-serif;
 }
 .wrapper {
 	width: 100%;
@@ -251,7 +251,7 @@ footer {
     background-color: #2bbbad;
     width: 200px;
     text-align: center;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Acme', sans-serif;
     font-size: 30px;
 	/* height: 68px; */
 	color: white;
