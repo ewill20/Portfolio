@@ -82,6 +82,9 @@ div.container-fluid {
 	font-family: 'Acme', sans-serif;
 	color: rgb(86, 86, 87);
 }
+#mainSelfie {
+	padding-bottom: 15px;
+}
 .navbar {
 	width: 100%;
 	background-color: #ff4500;
