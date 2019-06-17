@@ -269,6 +269,12 @@ a .about {
 	background-color: white;
 
 }
+#form8 {
+	width: 100%;
+}
+.far, .fas {
+	padding: 0 0 0 10px;
+}
 .btn-default {
 	background-color: #ff4500;
 	color: white;
