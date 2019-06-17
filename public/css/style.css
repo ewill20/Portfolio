@@ -1,6 +1,7 @@
 /* Style all font awesome icons */
-body {
+html, body {
 	width: 100%;
+	height: 100%;
 	box-sizing: border-box;
 	background-image: url("../images/concrete-texture.png") !important;
 }
@@ -92,7 +93,7 @@ div.container-fluid {
 }
 .main-content {
 	background-image: url("../images/concrete-texture.png");
-
+	min-height: 100%;
 }
 .clickTrip {
 	padding: 10px;
@@ -140,7 +141,6 @@ div.container-fluid {
 	color: #ff4500;
 	font-family: 'Acme', sans-serif; 
 	text-align: center;
-	margin-top: 15px;
 	font-size: 30px;
 }
 .connect2 {
@@ -231,8 +231,8 @@ header {
 	padding-top: 20px;
 }
 .panel-body {
-	height: 100%;
-	margin-bottom: 0;
+	/*height: 100%;*/
+	margin-bottom: 100px;
 }
 p {
 	font-family: 'Acme', sans-serif;
