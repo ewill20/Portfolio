@@ -124,6 +124,9 @@ div.container-fluid {
 	padding: 10px 20px 10px 20px;
 	border: solid lightgray 1px;
 }
+.glyphicon {
+	padding: 0 0 0 10px;
+}
 .connect {
 	background-color: #ffffff;
 	font-family: 'Acme', sans-serif;
@@ -142,6 +145,13 @@ div.container-fluid {
 	font-family: 'Acme', sans-serif; 
 	text-align: center;
 	font-size: 30px;
+}
+.panel {
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+.panel .panel-header {
+	margin-top: 0px;
 }
 .connect2 {
 	float: right;
@@ -231,8 +241,8 @@ header {
 	padding-top: 20px;
 }
 .panel-body {
-	/*height: 100%;*/
-	margin-bottom: 100px;
+	height: 100%;
+	/*margin-bottom: 100px;*/
 }
 p {
 	font-family: 'Acme', sans-serif;
