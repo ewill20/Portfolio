@@ -2,14 +2,26 @@
 var http = require('http')
 const express = require('express')
 var app = express()
+var passport = require('passport')
+var session = require('express-session')
 var env = require('dotenv').load()
 var exphbs = require('express-handlebars')
 const path = require('path')
 const mysql = require('mysql')
-var db = require('./models')
+var db = require("./models")
+
+var PORT = process.env.Port || 5000;
 
 
-const PORT = process.env.Port || 5000;
+// Sets up the Express app to handle data parsing
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.text());
+app.use(bodyParser.json({ type: "application/vnd.api+json" }));
+
+// Static directory
+app.use(express.static("public"));
+
 
 
 // For Handlebars //

@@ -2,22 +2,22 @@
     "development": {
         "username": "root",
         "password": null,
-        "database": "adaptive_traveler",
+        "database": "portfolio",
         "host": "127.0.0.1",
         "dialect": "mysql"
     },
     "test": {
         "username":"root",
         "password": null,
-        "database":"adaptive_traveler",
+        "database":"portfolio",
         "host":"127.0.0.1",
         "dialect":"mysql"
     },
     "production": {
-        "username": "cwg492y0s67ns89p",
-        "password": "cu1wp6w4t2zvp6qt",
-        "database": "vnjdx6d1jl3khgle",
-        "host":"otwsl2e23jrxcqvx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        "username": "q20hi8ng35wglu7d",
+        "password": "npuxifsbkiaihggx",
+        "database": "acye56u106mjk0uu",
+        "host":"rtzsaka6vivj2zp1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
         "use_env_variable": "JAWSDB_URL",
         "dialect":"mysql"
     }
