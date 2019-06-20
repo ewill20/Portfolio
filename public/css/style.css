@@ -122,6 +122,9 @@ div.container-fluid {
 	padding: 10px 20px 10px 20px;
 	border: solid lightgray 1px;
 }
+.FCpanel {
+	margin:20px 0 0 20px;
+}
 .glyphicon {
 	padding: 0 0 0 10px;
 }
