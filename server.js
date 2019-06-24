@@ -9,6 +9,7 @@ var exphbs = require('express-handlebars')
 const path = require('path')
 const mysql = require('mysql')
 var db = require("./models")
+var bodyParser = require('body-parser')
 
 var PORT = process.env.Port || 5000;
 
