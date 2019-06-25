@@ -14,14 +14,6 @@ var bodyParser = require('body-parser')
 
 var PORT = process.env.Port || 3306;
 
-// Create the connection to mysql
-// var connection = mysql.createConnection({
-//     host: 'localhost',
-//     user: 'root',
-//     password: 'EW141984'
-// });
-
-
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({

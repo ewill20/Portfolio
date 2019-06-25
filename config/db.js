@@ -3,11 +3,9 @@
 var Sequelize = require('sequelize');
 var env = require('./env');
 var sequelize = new Sequelize(env.DB_USER, env.DB_HOST, env.DB_PASS, env.DB_DATABASE, {
-  host: "rtzsaka6vivj2zp1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-  port: 3306,
-  dialect: "mysql",
-  username: "q20hi8ng35wglu7d",
-  password: "npuxifsbkiaihggx",
+  host: DB_HOST,
+  username: DB_USER,
+  password: DB_PASS,
   define: {
     underscored: true
   }
