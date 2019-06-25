@@ -1,11 +1,13 @@
 'use strict'
 
-const Sequelize = require('sequelize');
-const env = require('./env');
-const sequelize = new Sequelize(env.DATABASE_NAME, env.DATABASE_USERNAME, env.DATABASE_PASSWORD, {
-  host: env.DATABASE_HOST,
-  port: env.DATABASE_PORT,
-  dialect: env.DATABASE_DIALECT,
+var Sequelize = require('sequelize');
+var env = require('./env');
+var sequelize = new Sequelize(env.DB_USER, env.DB_HOST, env.DB_PASS, env.DB_DATABASE, {
+  host: "rtzsaka6vivj2zp1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  port: 3306,
+  dialect: "mysql",
+  username: "q20hi8ng35wglu7d",
+  password: "npuxifsbkiaihggx",
   define: {
     underscored: true
   }
@@ -13,7 +15,7 @@ const sequelize = new Sequelize(env.DATABASE_NAME, env.DATABASE_USERNAME, env.DA
 
 // Connect all the models/tables in the database to a db object,
 //so everything is accessible via one object
-const db = {};
+var db = {};
 
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
