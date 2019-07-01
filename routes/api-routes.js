@@ -14,11 +14,11 @@ module.exports = function(app) {
 
   // GET route for getting all of the users
   app.get('/', function(req, res) {
-    result.sendFile(path.join(__dirname + '/../landing.hbs'));
+    result.sendFile(path.join(__dirname + '/../home.hbs'));
 });
 
-app.get('/landing', function(req, res) {
-    result.sendFile(path.join(__dirname + '/../landing.hbs'));
+app.get('/home', function(req, res) {
+    result.sendFile(path.join(__dirname + '/../home.hbs'));
 });
 
   // POST route for saving a new user
