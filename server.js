@@ -33,12 +33,12 @@ app.use(express.static("public"));
 app.set('views', './views');
 app.engine('hbs', exphbs({
     extname: '.hbs',
-    defaultLayout: 'main'
+    defaultLayout: 'home'
 }));
 app.set('view engine', '.hbs');
 
 app.get('/', function(req, res) {
-    res.render('landing');
+    res.render('home');
 });
 app.get('/profile', function(req, res) {
     console.log(req.params.user);
@@ -50,7 +50,7 @@ app.get('/', function(req, res) {
 
     res.send('Welcome')
 
-    res.render(path.join(__dirname, 'landing.hbs'))
+    res.render(path.join(__dirname, 'home.hbs'))
 });
 app.get('/about', function(req, res) {
     res.render(path.join(__dirname, "about.hbs"))
