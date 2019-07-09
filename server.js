@@ -8,11 +8,13 @@ var env = require('dotenv').load()
 var customEnv = require('env');
 var exphbs = require('express-handlebars')
 var path = require('path')
+var fs = require('fs')
 var mysql = require('mysql')
 var db = require("./models")
 var bodyParser = require('body-parser')
 
-var PORT = process.env.Port;
+var PORT = app.listen(process.env.PORT) || 5000;
+
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
