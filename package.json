@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "Portfolio",
   "version": "1.0.0",
   "description": "Personal Portfolio",
   "main": "server.js",
@@ -16,6 +16,7 @@
     "express-session": "^1.16.2",
     "favicon": "0.0.2",
     "fs": "0.0.1-security",
+    "handlebars": "^4.1.2",
     "inquirer": "^4.0.2",
     "json": "^9.0.6",
     "local": "^0.3.3",

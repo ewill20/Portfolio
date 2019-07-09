@@ -2,7 +2,7 @@
 var http = require('http')
 var express = require('express')
 var app = express()
-var passport = require('passport')
+// var passport = require('passport')
 var session = require('express-session')
 var env = require('dotenv').load()
 var customEnv = require('env');
@@ -33,18 +33,20 @@ app.use(express.static("public"));
 app.set('views', './views');
 app.engine('hbs', exphbs({
     extname: '.hbs',
-    defaultLayout: 'home'
+    defaultLayout: 'main'
 }));
 app.set('view engine', '.hbs');
 
 app.get('/', function(req, res) {
     res.render('home');
 });
-app.get('/profile', function(req, res) {
-    console.log(req.params.user);
-    res.render('profile');
-});
+// app.get('/profile', function(req, res) {
+//     console.log(req.params.user);
+//     res.render('profile');
+// });
 
+//Models
+    var models = require("./models");
 
 app.get('/', function(req, res) {
 
@@ -58,16 +60,24 @@ app.get('/about', function(req, res) {
 app.get('/contact', function(req, res) {
     res.render(path.join(__dirname, "contact.hbs"))
 });
-app.get('/signin', function(req, res) {
-    res.render(path.join(__dirname, "signin.hbs"))
+app.get('/video', function(req, res) {
+    res.render(path.join(__dirname, "video.hbs"))
 });
-app.get('/signup', function(req, res) {
-    res.render(path.join(__dirname, "signup.hbs"))
+app.get('/skills', function(req, res) {
+    res.render(path.join(__dirname, "skills.hbs"))
 });
-app.get('/profile', function(req, res) {
-    res.render(path.join(__dirname, "profile.hbs"))
+app.get('/education', function(req, res) {
+    res.render(path.join(__dirname, "education.hbs"))
 });
-
+app.get('/experience', function(req, res) {
+    res.render(path.join(__dirname, "experience.hbs"))
+});
+app.get('/photo', function(req, res) {
+    res.render(path.join(__dirname, "photo.hbs"))
+});
+app.get('/webPort', function(req, res) {
+    res.render(path.join(__dirname, "webPort.hbs"))
+});
 
 // ROUTER
 // This points our server in the right direction via a series of "routes" //
@@ -96,3 +106,4 @@ db.sequelize.sync({
     console.log(err, "Something went wrong with the Database Update!")
 
 });
+
