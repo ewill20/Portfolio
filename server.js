@@ -12,7 +12,7 @@ var mysql = require('mysql')
 var db = require("./models")
 var bodyParser = require('body-parser')
 
-var PORT = process.env.Port || 5000;
+var PORT = process.env.Port;
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
