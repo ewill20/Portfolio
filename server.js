@@ -18,25 +18,16 @@ var PORT = app.listen(process.env.PORT) || 5000;
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
-app.use(bodyParser.json({
-    type: "application/vnd.api+json"
-}));
+app.use(bodyParser.json({type: "application/vnd.api+json"}));
 
 // Static directory
 app.use(express.static("public"));
 
-
-
 // For Handlebars //
 app.set('views', './views');
-app.engine('hbs', exphbs({
-    extname: '.hbs',
-    defaultLayout: 'main'
-}));
+app.engine('hbs', exphbs({extname: '.hbs',defaultLayout: 'main'}));
 app.set('view engine', '.hbs');
 
 app.get('/', function(req, res) {
@@ -89,17 +80,14 @@ var env = require('dotenv').load();
 var envConfig = require('dotenv').config();
 
 //Sync Database
-db.sequelize.sync({
-    force: false
-}).then(function() {
-
+db.sequelize.sync({force: false}).then(function() {
 
 
     app.listen(PORT, function(err) {
         if (!err)
             console.log("Site is live");
         else console.log(err)
-        console.log('Nice! Database looks fine')
+            console.log('Nice! Database looks fine')
     });
 
 
