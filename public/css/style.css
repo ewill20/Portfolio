@@ -357,7 +357,7 @@ footer {
     text-align: center;
     font-family: 'Acme', sans-serif;
     font-size: 30px;
-	 height: 68px; 
+	 height: 100%; 
 	color: white;
 	margin-left: 100px !important;
 	/* padding-top: 15px; */
