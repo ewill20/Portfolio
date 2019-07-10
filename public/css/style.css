@@ -346,7 +346,10 @@ footer {
 		}
 }
 
-
+.clicktripUI {
+	max-height: 2318px;
+	max-width: 1558px; 
+}
 /* Title */
 .navbar-brand {
     background-color: #ff4500;
