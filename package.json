@@ -4,6 +4,7 @@
   "description": "Personal Portfolio",
   "main": "server.js",
   "dependencies": {
+    "balanced-match": "^1.0.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
     "chai": "^4.2.0",
