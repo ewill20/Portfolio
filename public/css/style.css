@@ -346,9 +346,17 @@ footer {
 		}
 }
 
-.clicktripUI {
-	max-height: 2318px;
-	max-width: 1558px; 
+#WebDevSS {
+	max-height: 100%;
+	max-width: 100%; 
+}
+#experiencePic {
+	max-height: 100%;
+	max-width: 100%;
+}
+#gradPic {
+	max-height: 100%;
+	max-width: 100%;
 }
 /* Title */
 .navbar-brand {
