@@ -252,6 +252,10 @@ header {
 }
 .panel-body {
 	height: 100%;
+	padding: 10px;
+}
+.row, .top-panels {
+	height: 300px;
 }
 p {
 	font-family: 'Acme', sans-serif;
