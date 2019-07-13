@@ -3,6 +3,12 @@ $(document).ready(function() {
 });
 
 // limited click listeners for homepage links //
-$('#WebDevSSPanel').on('click', function() {
+$('#WebDevSS').on('click', function() {
 	window.location = '/webPort';
+})
+$('experiencePanel').on('click', function() {
+	window.location = '/experience';
+})
+$('educationPanel').on('click', function() {
+	window.location = '/education';
 })
