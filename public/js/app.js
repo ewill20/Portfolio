@@ -2,7 +2,7 @@ $(document).ready(function() {
 	console.log("The document is ready and raring to go!");
 });
 
-// limited click listeners for homepage links //
+// click listeners for homepage links //
 $('#WebDevSS').on('click', function() {
 	window.location = '/webPort';
 })
