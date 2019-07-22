@@ -7,6 +7,7 @@ html, body {
 	height: 100%;
 	box-sizing: border-box;
 	background-image: url("../images/concrete-texture.png") !important;
+	position: relative;
 }
 div.container-fluid {
 	align-items: center;
@@ -313,7 +314,7 @@ a .about {
 	padding-left: 50px !important;
 }
 footer {
-	position: relative;
+	position: absolute;
 	background-color: #666666;
 	color: white;
 	padding: 20px 0 20px 0 !important;
