@@ -2,16 +2,25 @@
 var http = require('http')
 var express = require('express')
 var app = express()
-// var passport = require('passport')
+var passport = require('passport')
 var session = require('express-session')
+var bodyParser = require('body-parser')
 var env = require('dotenv').load()
-var customEnv = require('env');
+// var customEnv = require('env');
 var exphbs = require('express-handlebars')
 var path = require('path')
-var fs = require('fs')
+// var fs = require('fs')
 var mysql = require('mysql')
 var db = require("./models")
-var bodyParser = require('body-parser')
+
+
+// For Passport
+ // Serving up static assets //
+ app.use(express.static("public"));
+
+ app.use(session({ secret: 'keyboard cat',resave: true, saveUninitialized:true})); // session secret
+ app.use(passport.initialize());
+ app.use(passport.session()); // persistent login sessions
 
 var PORT = app.listen(process.env.PORT) || 5000;
 
@@ -22,8 +31,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
 app.use(bodyParser.json({type: "application/vnd.api+json"}));
 
-// Static directory
-app.use(express.static("public"));
+// // Static directory
+// app.use(express.static("public"));
 
 // For Handlebars //
 app.set('views', './views');
@@ -37,6 +46,14 @@ app.get('/', function(req, res) {
 //     console.log(req.params.user);
 //     res.render('profile');
 // });
+
+//load passport strategies
+require('./config/passport/passport.js')(passport, db.user);
+
+//Routes
+// var authRoute = require('./routes/auth.js')(app,passport);
+// require("./routes/api-routes.js")(app);
+// require("./routes/user-api-routes.js")(app);
 
 //Models
     var models = require("./models");
