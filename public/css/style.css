@@ -364,7 +364,7 @@ footer {
 }
 #experiencePic {
 	max-height: 100%;
-	max-width: 100%;
+	max-width: 286px;
 }
 #gradPic {
 	max-height: 100%;
@@ -372,10 +372,10 @@ footer {
 }
 #meShooting {
 	max-width: 100%;
-	max-height: 100%
+	max-height: 270px
 }
 #skillsPic {
-	max-height: 100%;
+	max-height: 270px;
 	max-width: 100%;
 }
 /* Title */
