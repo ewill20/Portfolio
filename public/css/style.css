@@ -13,6 +13,10 @@ div.container-fluid {
 	align-items: center;
 	margin: 20px 0 20px 0;
 }
+.row {
+	height: auto;
+	margin: 20px -15px 20px -15px;
+}
 #education  {
 	font-size: 15px;
 	font-family: 'Acme', sans-serif;
