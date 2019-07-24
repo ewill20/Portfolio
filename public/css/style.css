@@ -14,7 +14,10 @@ div.container-fluid {
 	margin: 20px 0 20px 0;
 }
 #card-text {
-	text-shadow: 2px 2px black;
+	text-shadow: 1px 1px black;
+	color: #007bff;
+	font-size: 33px;
+	margin-bottom: 0px;
 }
 .row {
 	height: auto;
