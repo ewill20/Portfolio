@@ -20,7 +20,7 @@ div.container-fluid {
 	margin-bottom: 0px;
 }
 .row {
-	height: auto;
+	height: 350px !important;
 	margin: 20px -15px 20px -15px;
 }
 #education  {
