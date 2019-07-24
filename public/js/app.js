@@ -3,8 +3,8 @@ $(document).ready(function() {
 });
 
 // click listeners for homepage links //
-$('#WebDevSS').on('click', function() {
-	window.location = '/webPort';
+$("#WebDevSS").on("click", function() {
+	window.location = "/webPort";
 })
 $('experiencePanel').on('click', function() {
 	window.location = '/experience';
