@@ -406,6 +406,9 @@ footer {
 .navbar-collapse {
 	align-content: center;
 }
+.nav-item {
+	font-size: 20px;
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
