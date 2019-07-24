@@ -390,7 +390,7 @@ footer {
     text-align: center;
     font-family: 'Acme', sans-serif;
     font-size: 48px !important;
-	 height: 100%; 
+	 height: auto !important; 
 	color: #007bff;
 	margin-left: 100px !important;
 }
@@ -400,7 +400,7 @@ footer {
 	padding: 20px 0 10px 0; 
 }
 .navbar {
-	min-height: 75px !important;
+	min-height: auto !important;
 	margin-bottom: 0px !important;
 }
 .navbar-collapse {
