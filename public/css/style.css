@@ -13,6 +13,9 @@ div.container-fluid {
 	align-items: center;
 	margin: 20px 0 20px 0;
 }
+#card-text {
+	text-shadow: 2px 2px black;
+}
 .row {
 	height: auto;
 	margin: 20px -15px 20px -15px;
@@ -384,7 +387,7 @@ footer {
     font-family: 'Acme', sans-serif;
     font-size: 30px;
 	 height: 100%; 
-	color: white;
+	color: #007bff;
 	margin-left: 100px !important;
 }
 .navbar-nav {
