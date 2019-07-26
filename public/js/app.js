@@ -3,12 +3,12 @@ $(document).ready(function() {
 });
 
 // click listeners for homepage links //
-$("#WebDevSS").on("click", function() {
-	window.location = "/webPort";
-})
+$("#WebDevSS").click(function() {
+	$(this).hide();
+});
 $('experiencePanel').on('click', function() {
 	window.location = '/experience';
-})
+});
 $('educationPanel').on('click', function() {
 	window.location = '/education';
-})
+});
