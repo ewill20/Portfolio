@@ -1,4 +1,4 @@
-// var passport = require ('../config/passport/passport.js');
+var passport = require ('../config/passport/passport.js');
 
 var authController = require('../controllers/authcontroller.js');
 
