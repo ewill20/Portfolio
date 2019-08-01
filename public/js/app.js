@@ -6,9 +6,7 @@ $(document).ready(function() {
 $(".WebDevSS").click(function() {
 	$(this).hide();
 });
-$('experiencePanel').on('click', function() {
-	window.location = '/experience';
+$('#video').on("click", function(){
+	$(this).hide();
 });
-$('educationPanel').on('click', function() {
-	window.location = '/education';
-});
+

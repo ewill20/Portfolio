@@ -1,3 +1,9 @@
+<video controls autoplay id="video">
+    <source src="../easy.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+</video>
+
 <!--Start Nav-->
 <nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-dark green-gradient">
     <!-- <div class="container"> -->
@@ -44,7 +50,7 @@
     <!-- Links -->
     <ul class="navbar-nav mr-auto list-inline">
         <li class="nav-item list-item-inline">
-            <a class="nav-link" href="/home">Home</a>
+            <a class="nav-link" id="home-link">Home</a>
         </li>
         <li class="nav-item list-item-inline">
             <a class="nav-link" href="/contact">Contact</a>
@@ -94,7 +100,8 @@
         <!--Right Column-->
         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
             <!--Education-->
-            <div class="card" style="max-width: 100%; max-height: 100%; background-color: white; border: solid lightgray 1px;"><a href="/education">
+            <a href="/education">
+            <div class="card" style="max-width: 100%; max-height: 100%; background-color: white; border: solid lightgray 1px;">
                     <img class="card-img-top" id="gradPic" src="../images/Graduation-UCSD-Me.jpg">
                     <div class="card-body">
                         <p id="card-text">Education<i class="glyphicon glyphicon-education"></i></p>
