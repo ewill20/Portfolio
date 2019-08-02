@@ -6,7 +6,5 @@ $(document).ready(function() {
 $(".WebDevSS").click(function() {
 	$(this).hide();
 });
-$('#video').on("click", function(){
-	$(this).hide();
-});
+
 
