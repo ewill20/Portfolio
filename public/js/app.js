@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 // click listeners for homepage links //
-$(".WebDevSS").click(function() {
+$("#WebDevSS").click(function() {
 	$(this).hide();
 });
 
