@@ -94,7 +94,7 @@ app.get('/webPort', function(req, res) {
 // =======================================================================//
 // Function to handle requests and responses //
 var env = require('dotenv').load();
-var envConfig = require('dotenv').config();
+// var envConfig = require('dotenv').config();
 
 //Sync Database
 db.sequelize.sync({force: false}).then(function() {
