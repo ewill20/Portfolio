@@ -5,6 +5,8 @@ $(document).ready(function() {
 // click listeners for homepage links //
 $("#WebDevSS").click(function() {
 	$(this).hide();
-});
-
+})
+$('#pop-destinations').on('click', function() {
+	window.location = '/popDestinations';
+})
 
