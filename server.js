@@ -88,7 +88,9 @@ app.get('/photo', function(req, res) {
 app.get('/webPort', function(req, res) {
     res.render(path.join(__dirname, "webPort.hbs"))
 });
-
+app.get('/popDestinations', function(req, res) {
+    res.render(path.join(__dirname, "popDestinations.hbs"))
+});
 // ROUTER
 // This points our server in the right direction via a series of "routes" //
 // =======================================================================//
