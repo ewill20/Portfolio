@@ -51,7 +51,11 @@ exports.video = function(req,res){
     res.render('video'); 
   
 }
-
+exports.popDestinations = function(req,res){
+  
+    res.render('popDestinations'); 
+  
+}
 
 exports.logout = function(req,res){
 
