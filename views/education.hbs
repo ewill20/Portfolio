@@ -1,70 +1,164 @@
-<div class="container-fluid"
-
-    <!--Start Nav-->
-    <nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-dark green-gradient">
+<!--Start Nav-->
+<nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl blue-gradient-rgba">
     <a class="navbar-brand" href="/home">Eric Willard</a>
 
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
     <!-- Social Media Contact Links-->
-    <ul class="navbar-collapse justify-content-between mr-auto list-inline">
+    <ul class="navbar-collapse justify-content-start mr-auto list-inline">
         <li class="nav-item navbar-center list-inline-item">
             <a href="https://www.linkedin.com/in/willarderic/">
-                <img src="images/linkedin.png" alt="linkedin" class="linkedin" style="height: 55px; width: 55px;">
+                <img src="Images/linkedin.png" alt="linkedin" class="linkedin" style="height: 55px; width: 55px;">
             </a>
         </li>
         <li class="nav-item navbar-center list-inline-item">
             <a href="https://www.github.com/ewill20">
-                <img src="images/githubicon.png" alt="github" class="github" style="height: 55px; width: 55px">
+                <img src="Images/githubicon.png" alt="github" class="github" style="height: 55px; width: 55px">
             </a>
         </li>
         <li class="nav-item navbar-center list-inline-item">
             <a href="https://stackoverflow.com/users/8011910/e-dub">
-                <img src="images/stackOverflow.png" alt="StackOverflow" class="stackOverflow" style="height: 55px; width: 55px;">
+                <img src="Images/stackOverflow.png" alt="StackOverflow" class="stackOverflow" style="height: 55px; width: 55px;">
             </a>
         </li>
         <li class="nav-item navbar-center list-inline-item">
             <a href="https://www.500px.com/ewill20">
-                <img src="images/500px.png" alt="500px" class="500px" style="height: 60px; width: 60px;">
+                <img src="Images/500px.png" alt="500px" class="500px" style="height: 60px; width: 60px;">
             </a>
         </li>
         <li class="nav-item navbar-center list-inline-item">
             <a href="https://www.viewbug.com/member/ewill">
-                <img src="images/viewbug.jpg" alt="Viewbug" class="Viewbug" style="height: 55px; width: 55px; display: inline-block; border-radius: 60px; box-shadow: 0px 0px 2px #888;">
+                <img src="Images/viewbug.jpg" alt="Viewbug" class="Viewbug" style="height: 55px; width: 55px; display: inline-block; border-radius: 60px; box-shadow: 0px 0px 2px #888;">
             </a>
         </li>
         <li class="nav-item navbar-center list-inline-item">
             <a href="https://www.instagram.com/ewill20">
-                <img src="images/InstagramNew.png" alt="Instagram" class="Instagram" style="height: 55px; width: 55px;">
+                <img src="Images/InstagramNew.png" alt="Instagram" class="Instagram" style="height: 55px; width: 55px;">
             </a>
         </li>
         <li class="nav-item navbar-center list-inline-item">
             <a href="https://www.youtube.com/channel/UCJ75p4PUoM-ZbQvO5B-iZ7w?view_as=subscriber">
-                <img src="images/YouTube-icon.png" alt="YouTube" class="YouTube" style="height: 55px; width: 55px;">
+                <img src="Images/YouTube-icon.png" alt="YouTube" class="YouTube" style="height: 55px; width: 55px;">
             </a>
+        </li>
+    </ul>
+
+<!--Dropdown for site navigation-->
+<div class="dropdown">
+    <button class="btn btn-danger btn-lg dropdown-toggle" type="button" id="nav-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Site Navigation
+    </button>
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/webPort">Web Development</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/experience">Experience</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/photo">Photography</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/skills">Skills</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/video">Video</a>
+        </li>
+    </ul>
+</div>
+<!--End Dropdown Button-->
+
+    <!-- Language Links -->
+    <ul class="navbar-nav mr-auto navbar-right list-inline" style="margin-left: 30px;">
+        <li class="nav-item list-item-inline">
+            <a class="nav-link" href="/educationCN"><span class="flag-icon flag-icon-cn"></span></a>
+        </li>
+        <li class="nav-item list-item-inline">
+            <a class="nav-link" href="/educationDE"><span class="flag-icon flag-icon-de"></span></a>
+        </li>
+        <li class="nav-item list-item-inline">
+            <a class="nav-link" href="/educationFR"><span class="flag-icon flag-icon-fr"></span></a>
         </li>
     </ul>
     <!-- Links -->
-    <ul class="navbar-nav navbar-right list-inline">
+    <ul class="navbar-nav mr-auto navbar-right list-inline" style="margin-left: 30px;">
         <li class="nav-item list-item-inline">
-            <a class="nav-link" id="home-link">Home
-            </a>
+            <a class="nav-link glyphicon glyphicon-home" href="/home"></a>
         </li>
         <li class="nav-item list-item-inline">
-            <a class="nav-link" href="/contact">Contact</a>
+            <a class="nav-link glyphicon glyphicon-envelope" href="/contact"></a>
         </li>
         <li class="nav-item list-item-inline">
-            <a class="nav-link" href="/about">About</a>
+            <a class="nav-link glyphicon glyphicon-book" href="/about"></a>
         </li>
     </ul>
-    </div>
+    <!-- End Nav & lang links-->
 </nav>
 <!--End Navbar-->
 
+<!--Education History Panels-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <!--Left Column Panel-->
+            <!--Kansas University-->
+            <div class="card" style="max-width: 100%; max-height:100%; background-color: white; border: solid lightgray 1px;">
+                <img class="card-img-top img-fluid" id="jayhawklogo" src="../Images/jayhawklogo.jpg">
+                    <div class="card-title">
+                        Kansas University
+                    </div>
+                        <div class="card-body">
+                            <ul style="list-style-type:disc;">
+                                <li>Coding Boot Camp</li>
+                                <li>June 2017-May 2018</li>
+                                <li>Intensive 52 week full-stack coding program designed to give students knowledge on a vast array of coding languages as well as constant hands-on experience building their own web apps.</li>
+                            <ul>
+                        </div>    
+            </div>    
+        </div>
+        <!--End KU Panel-->
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+
+            <!--Middle Column Panel-->
+            <!--Start UCSD Panel-->
+            <div class="card" style="max-width: 100%; max-height:100%; background-color: white; border: solid lightgray 1px;">
+                <img class="card-img-top img-fluid" id="ucsdlogo" src="../Images/UCSD-logo.png">
+                    <div class="card-title">
+                        University of California San Diego
+                    </div>
+                        <div class="card-body">
+                            <ul style="list-style-type:disc;">
+                                <li>Bachelor of Arts</li>
+                                <li>September 2012-August 2014</li>
+                                <li>My studies at UCSD consisted heavily of languages, history, and politics.  I studied German and French throughout my tenure at UCSD while also obtaining a minor certification in international relations.</li>
+                                </ul>
+                        </div>        
+            </div>
+        </div>    
+        <!--End UCSD Panel-->
+
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+
+        <!--Right Column Panel-->
+        <!--Start Fullerton College Panel-->
+        <div class="card" style="max-width: 100%; max-height:100%; background-color: white; border: solid lightgray 1px;">
+                <img class="card-img-top img-fluid" id="fullcolllogo" src="../Images/fullcolllogo.jpg">
+                    <div class="card-title">
+                        Fullerton College
+                    </div>    
+                        <div class="card-body">
+                            <ul style="list-style-type:disc;">
+                                <li>Associate in Arts in Film</li>
+                                <li>January 2009-May 2012</li>
+                                <li>At Fullerton College I was proud to obtain both President's List and Dean's list status during 2/3 of my studies at the institution.  I majored in Film, but also studied German, French, and Spanish as well as single-handedly produce a video to promote the Study Abroad Department.  In consecutive years I studied both in Paris, France and Berlin, Germany which bolstered my language skills in addition to providing me with a better understanding of foreign culture.</li>  
+                                </ul>
+                        </div>    
+        </div>
+    </div>
+        <!--End Fullerton College Panel-->
 
 
 
-</div>
-<footer class="footer">
-    © Copyright 2019 Eric Willard
+<footer class="footer blue-gradient-rgba">
+    © Eric Willard
 </footer>

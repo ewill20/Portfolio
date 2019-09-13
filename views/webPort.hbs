@@ -1,34 +1,174 @@
-<div class="container-fluid">
 <!--Start Nav-->
-<nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-dark green-gradient">
-    <!-- <div class="container"> -->
+<nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl blue-gradient-rgba">
     <a class="navbar-brand" href="/home">Eric Willard</a>
 
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-
-    <!-- Links -->
-    <ul class="navbar-nav navbar-right list-inline">
-        <li class="nav-item list-item-inline">
-            <a class="nav-link" href="/home">Home
+    <!-- Social Media Contact Links-->
+    <ul class="navbar-collapse justify-content-start mr-auto list-inline">
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://www.linkedin.com/in/willarderic/">
+                <img src="Images/linkedin.png" alt="linkedin" class="linkedin" style="height: 55px; width: 55px;">
             </a>
         </li>
-        <li class="nav-item list-item-inline">
-            <a class="nav-link" href="/contact">Contact</a>
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://www.github.com/ewill20">
+                <img src="Images/githubicon.png" alt="github" class="github" style="height: 55px; width: 55px">
+            </a>
         </li>
-        <li class="nav-item list-item-inline">
-            <a class="nav-link" href="/about">About</a>
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://stackoverflow.com/users/8011910/e-dub">
+                <img src="Images/stackOverflow.png" alt="StackOverflow" class="stackOverflow" style="height: 55px; width: 55px;">
+            </a>
+        </li>
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://www.500px.com/ewill20">
+                <img src="Images/500px.png" alt="500px" class="500px" style="height: 60px; width: 60px;">
+            </a>
+        </li>
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://www.viewbug.com/member/ewill">
+                <img src="Images/viewbug.jpg" alt="Viewbug" class="Viewbug" style="height: 55px; width: 55px; display: inline-block; border-radius: 60px; box-shadow: 0px 0px 2px #888;">
+            </a>
+        </li>
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://www.instagram.com/ewill20">
+                <img src="Images/InstagramNew.png" alt="Instagram" class="Instagram" style="height: 55px; width: 55px;">
+            </a>
+        </li>
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://www.youtube.com/channel/UCJ75p4PUoM-ZbQvO5B-iZ7w?view_as=subscriber">
+                <img src="Images/YouTube-icon.png" alt="YouTube" class="YouTube" style="height: 55px; width: 55px;">
+            </a>
         </li>
     </ul>
-    </div>
-</nav>
+
+<!--Dropdown for site navigation-->
+<div class="dropdown">
+    <button class="btn btn-danger btn-lg dropdown-toggle" type="button" id="nav-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Site Navigation
+    </button>
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/experience">Experience</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/education">Education</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/photo">Photography</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/skills">Skills</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/video">Video</a>
+        </li>
+    </ul>
 </div>
+<!--End Dropdown Button-->
+
+    <!-- Language Links -->
+    <ul class="navbar-nav mr-auto navbar-right list-inline" style="margin-left: 30px;">
+        <li class="nav-item list-item-inline">
+            <a class="nav-link" href="/webPortCN"><span class="flag-icon flag-icon-cn"></span></a>
+        </li>
+        <li class="nav-item list-item-inline">
+            <a class="nav-link" href="/webPortDE"><span class="flag-icon flag-icon-de"></span></a>
+        </li>
+        <li class="nav-item list-item-inline">
+            <a class="nav-link" href="/webPortFR"><span class="flag-icon flag-icon-fr"></span></a>
+        </li>
+    </ul>
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto navbar-right list-inline" style="margin-left: 30px;">
+        <li class="nav-item list-item-inline">
+            <a class="nav-link glyphicon glyphicon-home" href="/home"></a>
+        </li>
+        <li class="nav-item list-item-inline">
+            <a class="nav-link glyphicon glyphicon-envelope" href="/contact"></a>
+        </li>
+        <li class="nav-item list-item-inline">
+            <a class="nav-link glyphicon glyphicon-book" href="/about"></a>
+        </li>
+    </ul>
+    
+</nav>
+
 <!--End Navbar-->
 
+<!-- Nav Panels-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+
+        <!--Left Column Panel-->
+        <!--The Adaptive Traveler-->
+        <a href="https://the-adaptive-traveler.herokuapp.com" target="_blank">
+            <div class="card" style="max-width: 100%; max-height: 100%; background-color: white; border: solid lightgray 1px;">
+                
+                <!--hover text description-->
+                <div class="view overlay" id="tatDesc">
+                <img class="card-img-top img-fluid" id="tat" src="../Images/tatUI.png">
+                    <div class="mask flex-center rgba-blue-strong">
+                        <p class="white-text">
+                            Your one-stop website for all the travel knowledge you need to become less of a tourist and more of an adaptive traveler...
+                        </p>
+                    </div>
+                </div>
+                <!--end hover description-->
+
+                <div class="card-body">
+                <p id="card-text">The Adaptive Traveler</p>
+                </div>
+            </div></a>
+        </div>
+        <!--End Left Column Panel-->
+
+        <!--Start Middle Column Panel-->
+        <!--Click Trip-->
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <a href="https://ewill20.github.io/clicktrip/" target="_blank">
+        <div class="card" style="max-width: 100%; max-height: 100%; background-color: white; border: solid lightgray 1px;">
+            
+            <!--Hover description over the photo-->
+            <div class="view overlay" id="clickDesc">
+                <img class="card-img-top img-fluid" id="clicktrip" src="../Images/clicktripUI.png">
+                <div class="mask flex-center rgba-blue-strong">
+                    <p class="white-text">
+                        A website designed for those that love to take photographs while traveling.  This site specializes in the off-the-beaten-path photo locations not as widely known about by most travelers.
+                    </p>
+                </div>
+            </div>
+            <div class="card-body">
+                <p id="card-text">clickTrip</p>
+                </div>
+            </div></a>
+        </div>
+        <!--End Middle Column Panel-->
+
+        <!--Right Column Panel-->
+        <!--Innovative Photos-->
+        <a href="https://innovative-photos.herokuapp.com/" target="_blank">
+            <div class="card" style="max-width: 100%; max-height: 100%;     background-color: white; border: solid lightgray 1px;">
+                
+            <!--start hover effect-->
+            <div class="view overlay" id="inPhotoDesc">
+                <img class="card-img-top img-fluid" id="inPhotos" src="../Images/IPLOGO.jpg">
+                    <div class="mask flex-center rgba-blue-strong">
+                        <p class="white-text">
+                             A website where one can order several different styles of prints ranging from acrylic, to aluminum, and more.  The website is only applicable in Mainland China.
+                        </p>
+                    </div>
+            </div>
 
 
+                <div class="card-body">
+                <p id="card-text">Innovative Photos</p>
+                </div>
+            </div></a>
+        </div>
+        <!--End Left Column Panel-->
 
-
-<footer class="footer">
-    © Copyright 2019 Eric Willard
+<footer class="footer blue-gradient-rgba">
+    © Eric Willard
 </footer>

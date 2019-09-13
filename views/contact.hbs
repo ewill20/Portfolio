@@ -1,64 +1,134 @@
- <nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-dark green-gradient">
-        <!-- <div class="container"> -->
-        <a class="navbar-brand" href="index.html">Eric Willard</a>
+ <nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl blue-gradient-rgba">
+        <a class="navbar-brand" href="/home">Eric Willard</a>
 
-        <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+        <!-- Social Media Contact Links-->
+        <ul class="navbar-collapse justify-content-start mr-auto list-inline">
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://www.linkedin.com/in/willarderic/">
+                <img src="Images/linkedin.png" alt="linkedin" class="linkedin" style="height: 55px; width: 55px;">
+            </a>
+        </li>
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://www.github.com/ewill20">
+                <img src="Images/githubicon.png" alt="github" class="github" style="height: 55px; width: 55px">
+            </a>
+        </li>
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://stackoverflow.com/users/8011910/e-dub">
+                <img src="Images/stackOverflow.png" alt="StackOverflow" class="stackOverflow" style="height: 55px; width: 55px;">
+            </a>
+        </li>
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://www.500px.com/ewill20">
+                <img src="Images/500px.png" alt="500px" class="500px" style="height: 60px; width: 60px;">
+            </a>
+        </li>
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://www.viewbug.com/member/ewill">
+                <img src="Images/viewbug.jpg" alt="Viewbug" class="Viewbug" style="height: 55px; width: 55px; display: inline-block; border-radius: 60px; box-shadow: 0px 0px 2px #888;">
+            </a>
+        </li>
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://www.instagram.com/ewill20">
+                <img src="Images/InstagramNew.png" alt="Instagram" class="Instagram" style="height: 55px; width: 55px;">
+            </a>
+        </li>
+        <li class="nav-item navbar-center list-inline-item">
+            <a href="https://www.youtube.com/channel/UCJ75p4PUoM-ZbQvO5B-iZ7w?view_as=subscriber">
+                <img src="Images/YouTube-icon.png" alt="YouTube" class="YouTube" style="height: 55px; width: 55px;">
+            </a>
+        </li>
+    </ul>
 
+<!--Dropdown for site navigation-->
+<div class="dropdown">
+    <button class="btn btn-danger btn-lg dropdown-toggle" type="button" id="nav-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Site Navigation
+    </button>
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/webPort">Web Development</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/experience">Experience</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/education">Education</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/photo">Photography</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/skills">Skills</a>
+        </li>
+        <li role="presentation">
+            <a class="dropdown-item" role="menuitem" tabindex="-1" href="/video">Video</a>
+        </li>
+    </ul>
+</div>
+<!--End Dropdown Button-->
+
+    <!-- Language Links -->
+    <ul class="navbar-nav mr-auto navbar-right list-inline" style="margin-left: 30px;">
+        <li class="nav-item list-item-inline">
+            <a class="nav-link" href="/contactCN"><span class="flag-icon flag-icon-cn"></span></a>
+        </li>
+        <li class="nav-item list-item-inline">
+            <a class="nav-link" href="/contactDE"><span class="flag-icon flag-icon-de"></span></a>
+        </li>
+        <li class="nav-item list-item-inline">
+            <a class="nav-link" href="/contactFR"><span class="flag-icon flag-icon-fr"></span></a>
+        </li>
+    </ul>
         <!-- Links -->
-        <ul class="navbar-nav navbar-right list-inline">
-            <li class="nav-item list-item-inline">
-                <a class="nav-link" href="index.html">About
-                </a>
-            </li>
-            <li class="nav-item list-item-inline">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item list-item-inline">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
-        <!-- links -->
-
-        </div>
-        <!-- </div> -->
+        <ul class="navbar-nav mr-auto navbar-right list-inline" style="margin-left: 30px;">
+        <li class="nav-item list-item-inline">
+            <a class="nav-link glyphicon glyphicon-home" href="/home"></a>
+        </li>
+        <li class="nav-item list-item-inline">
+            <a class="nav-link glyphicon glyphicon-book" href="/about"></a>
+        </li>
+    </ul>
+        <!-- End links -->
+        
     </nav>
     <div class="container-fluid">
         <!-- <div class="row main-content"> -->
         <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-1 col-lg-5 col-lg-offset-1">
             <div class="panel panel-default" style="background-color: white; border: solid lightgray 1px;">
-                <div class="panel panel-header text-center">Contact<i class="glyphicon glyphicon-envelope"></i></div>
+                <div class="panel panel-header text-center" style="color: #00b8e6;">Contact<i class="glyphicon glyphicon-envelope"></i></div>
                 <div class="panel panel-body">
 
                     <!-- Form contact -->
-                    <form action="mailto:ewill2020@gmail.com" method="post" enctype="text/plain">
+                    <form action="MAILTO:ewill2020@gmail.com" method="post" enctype="text/plain">
                         <div class="form-group">
-                            <label for="form3">Your name</label><i class="far fa-user"></i>
-                            <input type="text" id="form3" class="form-control">
+                            <label for="form3">Your Name</label>
+                            <input type="text" name="name" id="form3" class="form-control">
 
                         </div>
 
                         <div class="form-group">
-                            <label for="form2">Your email</label><i class="far fa-envelope"></i>
+                            <label for="form2">Your Email</label>
 
-                            <input type="text" id="form2" class="form-control">
+                            <input type="text" id="form2" name="mail" class="form-control">
 
                         </div>
 
                         <div class="form-group">
-                            <label for="form34">Subject</label><i class="fas fa-tag"></i>
+                            <label for="form34">Subject</label>
                             <input type="text" id="form32" class="form-control">
                         </div>
 
                         <div class="form-group">
-                            <label for="form8">Your message</label><i class="fas fa-pencil-alt"></i>
+                            <label for="form8">Your Message</label>
                             <br>
-                            <textarea type="text" id="form8" class="md-textarea" style="height: 100px"></textarea>
+                            <textarea type="text" id="form8" name="message" class="md-textarea" style="height: 100px"></textarea>
 
                         </div>
 
                         <div class="send">
-                            <button type="submit" class="btn btn-default">Send <span><i class="fab fa-telegram-plane"></i></span></button>
+                            <button type="submit" class="btn btn-info">Send</button>
                         </div>
 
                     </form>
@@ -66,54 +136,7 @@
                 </div>
             </div>
         </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-5">
-            <div class="panel panel-default">
-                <div class="panel panel-header">
-                    Connect With Me<i class="glyphicon glyphicon-transfer"></i>
-                </div>
-                <div class="panel panel-body" style="text-align: center;">
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/willarderic/">
-                                <img src="images/linkedin.png" alt="linkedin" class="linkedin" style="height: 60px; width: 60px;">
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.github.com/ewill20">
-                                <img src="images/githubicon.png" alt="github" class="github" style="height: 60px; width: 60px">
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://stackoverflow.com/users/8011910/e-dub">
-                                <img src="images/stackOverflow.png" alt="StackOverflow" class="stackOverflow" style="height: 60px; width: 60px;">
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.500px.com/ewill20">
-                                <img src="images/500px.png" alt="500px" class="500px" style="height: 70px; width: 70px;">
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.viewbug.com/member/ewill">
-                                <img src="images/viewbug.jpg" alt="Viewbug" class="Viewbug" style="height: 60px; width: 60px; display: inline-block; border-radius: 60px; box-shadow: 0px 0px 2px #888;">
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com/ewill20">
-                                <img src="images/InstagramNew.jpg" alt="Instagram" class="Instagram" style="height: 60px; width: 60px;">
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.youtube.com/channel/UCJ75p4PUoM-ZbQvO5B-iZ7w?view_as=subscriber">
-                                <img src="images/YouTube-icon.png" alt="YouTube" class="YouTube" style="height: 60px; width: 60px;">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </div>
-    <footer class="footer">
+    <footer class="footer blue-gradient-rgba">
         © Copyright 2019 Eric Willard
     </footer>
