@@ -6,7 +6,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 	box-sizing: border-box;
-	background-image: url("../Images/concrete-texture.png") !important;
+	background-image: url("../images/concrete-texture.png") !important;
 	position: relative;
 }
 .fa {
@@ -143,7 +143,7 @@ div.container-fluid {
 	min-height: auto; 
 }
 .main-content {
-	background-image: url("../Images/concrete-texture.png");
+	background-image: url("../images/concrete-texture.png");
 	min-height: 100%;
 }
 .clickTrip {
