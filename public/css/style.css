@@ -42,7 +42,7 @@ div.container-fluid {
 	margin-bottom: 100px;
 }
 .row {
-	max-height: -webkit-fill-available !important;
+	/* max-height: -webkit-fill-available !important; */
 	margin-left: 10px !important;
 }
 .row .skills {
