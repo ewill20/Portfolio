@@ -29,7 +29,7 @@ div.container-fluid {
 	font-size: 33px;
 	margin-bottom: 0px;
 }
-.card {
+.card .video {
 	padding: 0 5px 0 5px;
 }
 .mask {
