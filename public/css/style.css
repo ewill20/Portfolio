@@ -29,6 +29,9 @@ div.container-fluid {
 	font-size: 33px;
 	margin-bottom: 0px;
 }
+.card {
+	padding: 0 5px 0 5px;
+}
 .mask {
 	padding: 0 15px 0 15px !important;
 }
