@@ -409,13 +409,24 @@ footer {
 		display: block;
 	}
 }
-@media only screen and (min-width: 769px) and (max-width: 980px) {
+@media only screen and (max-width: 980px) and (min-width: 769px) {
 		header .name #container .links {
 			width: 100%;
 			display: block;
 		}
 }
-
+@media only screen and (max-width: 980px) and (min-width: 769px) {
+	.nav-item {
+		width: 100%;
+		display: block;
+	}
+}
+@media only screen and (max-width: 1300px) and (min-width: 981px) {
+	.nav-item {
+		width: 100%;
+		display: block;
+	}
+}
 #WebDevSS {
 	max-height: 100%;
 	max-width: 100%; 
@@ -562,32 +573,4 @@ footer {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
-}
-.wrapper {
-	width: 100%;
-	padding: 0;
-}
-@media only screen and (max-width: 640px) { 
-	header .name #container .links {
-		width: 100%;
-		display: block;
-	}
-}
-@media only screen and (max-width: 768px) and (min-width: 641px) {
-	header .name #container .links {
-		width: 100%;
-		display: block;
-	}
-}
-@media only screen and (min-width: 769px) and (max-width: 980px) {
-		header .name #container .links {
-			width: 100%;
-			display: block;
-			
-		}
-}
-@media only screen and (min-width: 1000px) and (max-width: 1300px) {
-	.nav-link {
-		display: block;
-	}
 }
