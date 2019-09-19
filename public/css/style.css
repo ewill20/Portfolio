@@ -45,12 +45,6 @@ div.container-fluid {
 	/* max-height: -webkit-fill-available !important; */
 	margin-left: 10px !important;
 }
-.row .skills {
-	max-height: 320px;
-}
-/* .top-panels {
-	margin-bottom: 75px;
-} */
 #education  {
 	font-size: 15px;
 	font-family: 'Acme', sans-serif;
