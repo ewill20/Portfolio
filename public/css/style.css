@@ -398,19 +398,19 @@ footer {
 	padding: 0;
 }
 @media only screen and (max-width: 640px) { 
-	header .name #container .links {
+	header .name #container .links .nav-item {
 		width: 100%;
 		display: block;
 	}
 }
 @media only screen and (max-width: 768px) and (min-width: 641px) {
-	header .name #container .links {
+	header .name #container .links .nav-item {
 		width: 100%;
 		display: block;
 	}
 }
 @media only screen and (max-width: 980px) and (min-width: 769px) {
-		header .name #container .links {
+		header .name #container .links .nav-item {
 			width: 100%;
 			display: block;
 		}
@@ -426,6 +426,9 @@ footer {
 		width: 100%;
 		display: block;
 	}
+}
+.nav-item {
+	overflow: -
 }
 #WebDevSS {
 	max-height: 100%;
