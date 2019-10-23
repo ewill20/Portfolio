@@ -19,7 +19,7 @@
     "express-session": "^1.16.2",
     "favicon": "0.0.2",
     "fs": "0.0.1-security",
-    "handlebars": "^4.1.2",
+    "handlebars": "^4.4.5",
     "inquirer": "^4.0.2",
     "jquery": "^3.4.1",
     "json": "^9.0.6",

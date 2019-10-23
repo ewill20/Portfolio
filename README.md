@@ -1,3 +1,3 @@
-#Eric Willard's Portfolio
+#EricWillardPortfolio
 
-This is my personal portfolio with links to my personal projects, a short bio about myself, and the ability to get in touch with me directly.
+A personal portfolio that includes links to my work, a short bio, as well as direct links in which to contact me.

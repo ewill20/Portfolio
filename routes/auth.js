@@ -1,137 +1,122 @@
-const passport = require ('../config/passport/passport.js');
+const passport = require('../config/passport/passport.js');
 
 var authController = require('../controllers/authcontroller.js');
 
-module.exports = function(app,passport){
+module.exports = function(app, passport) {
 
-app.get('/landing', authController.landing);
+    app.get('/landing', authController.landing);
 
-app.get('/about', authController.about);
+    app.get('/about', authController.about);
 
-app.get('/contact', authController.contact);
+    app.get('/contact', authController.contact);
 
-// app.get('/signup', authController.signup);
+    app.get('/home', authController.home);
 
-// app.get('/signin', authController.signin);
+    app.get('/webPort', authController.webPort);
 
-// app.get('/berlin', authController.berlin);
+    app.get('/experience', authController.experience);
 
-// app.get('/kyoto', authController.kyoto);
+    app.get('/education', authController.education);
 
-// app.get('/hangzhou', authController.hangzhou);
+    app.get('/photo', authController.photo);
 
-// app.get('/paris', authController.paris);
+    app.get('/skills', authController.skills);
 
-// app.get('/popDestinations', authController.popDestinations);
+    app.get('/video', authController.video);
 
-app.get('/home', authController.home);
+    app.get('/homeFR', authController.homeFR);
 
-app.get('/webPort', authController.webPort);
+    app.get('/aboutFR', authController.aboutFR);
 
-app.get('/experience', authController.experience);
+    app.get('/contactFR', authController.contactFR);
 
-app.get('/education', authController.education);
+    app.get('/educationFR', authController.educationFR);
 
-app.get('/photo', authController.photo);
+    app.get('/experienceFR', authController.experienceFR);
 
-app.get('/skills', authController.skills);
+    app.get('/photoFR', authController.photoFR);
 
-app.get('/video', authController.video);
+    app.get('/skillsFR', authController.skillsFR);
 
-app.get('/homeFR', authController.homeFR);
+    app.get('/videoFR', authController.videoFR);
 
-app.get('/aboutFR', authController.aboutFR);
+    app.get('/webPortFR', authController.webPortFR);
 
-app.get('/contactFR', authController.contactFR);
+    app.get('/homeDE', authController.homeDE);
 
-app.get('/educationFR', authController.educationFR);
+    app.get('/aboutDE', authController.aboutDE);
 
-app.get('/experienceFR', authController.experienceFR);
+    app.get('/contactDE', authController.contactDE);
 
-app.get('/photoFR', authController.photoFR);
+    app.get('/educationDE', authController.educationDE);
 
-app.get('/skillsFR', authController.skillsFR);
+    app.get('/experienceDE', authController.experienceDE);
 
-app.get('/videoFR', authController.videoFR);
+    app.get('/photoDE', authController.photoDE);
 
-app.get('/webPortFR', authController.webPortFR);
+    app.get('/skillsDE', authController.skillsDE);
 
-app.get('/homeDE', authController.homeDE);
+    app.get('/videoDE', authController.videoDE);
 
-app.get('/aboutDE', authController.aboutDE);
+    app.get('/webPortDE', authController.webPortDE);
 
-app.get('/contactDE', authController.contactDE);
+    app.get('/homeCN', authController.homeCN);
 
-app.get('/educationDE', authController.educationDE);
+    app.get('/aboutCN', authController.aboutCN);
 
-app.get('/experienceDE', authController.experienceDE);
+    app.get('/contactCN', authController.contactCN);
 
-app.get('/photoDE', authController.photoDE);
+    app.get('/webPortCN', authController.webPortCN);
 
-app.get('/skillsDE', authController.skillsDE);
+    app.get('/experienceCN', authController.experienceCN);
 
-app.get('/videoDE', authController.videoDE);
+    app.get('/educationCN', authController.educationCN);
 
-app.get('/webPortDE', authController.webPortDE);
+    app.get('/photoCN', authController.photoCN);
 
-app.get('/homeCN', authController.homeCN);
+    app.get('/skillsCN', authController.skillsCN);
 
-app.get('/aboutCN', authController.aboutCN);
+    app.get('/videoCN', authController.videoCN);
 
-app.get('/contactCN', authController.contactCN);
-
-app.get('/webPortCN', authController.webPortCN);
-
-app.get('/experienceCN', authController.experienceCN);
-
-app.get('/educationCN', authController.educationCN);
-
-app.get('/photoCN', authController.photoCN);
-
-app.get('/skillsCN', authController.skillsCN);
-
-app.get('/videoCN', authController.videoCN);
-
-app.post('/landing', function(req, res, next) {
-    console.log("whatever");
-    passport.authenticate('local-signup');
-    // passport.authenticate('local-signup', function(err, user, info) {
-    //     if (err) {
-    //         return next(err); // will generate a 500 error
-    //       }
-    //     console.log("whatever 2");
-    //     console.log(email);
-    //     try {
-            // res.render('/profile');
-    //     }
-    //     catch (err) {
-    //         console.log(err)
-    //         res.redirect('/signup')
-    //     }
-    // });
-});
+    app.post('/landing', function(req, res, next) {
+        console.log("whatever");
+        passport.authenticate('local-signup');
+        passport.authenticate('local-signup', function(err, user, info) {
+            if (err) {
+                return next(err); // will generate a 500 error
+            }
+            console.log("whatever 2");
+            console.log(email);
+            try {
+                res.render('/profile');
+            } catch (err) {
+                console.log(err)
+                res.redirect('/signup')
+            }
+        });
+    });
 
 
-app.get('/profile',isLoggedIn, authController.profile);
+    app.get('/profile', isLoggedIn, authController.profile);
 
 
-// app.get('/logout',authController.logout);
+    app.get('/logout', authController.logout);
 
 
-// app.post('/signin', passport.authenticate('local'),
-//     function(req, res) {
-//    res.redirect('/profile' + req.user.handle)
-// });
-
-    
+    app.post('/signin', passport.authenticate('local'),
+        function(req, res) {
+            res.redirect('/profile' + req.user.handle)
+        });
 
 
-function isLoggedIn(req, res, next) {
-    if (req.isAuthenticated())
-        return next();
 
-    res.redirect('/signin');
-}
+
+    function isLoggedIn(req, res, next) {
+        if (req.isAuthenticated())
+            return next();
+
+        res.redirect('/signin');
+    }
 
 
 }
