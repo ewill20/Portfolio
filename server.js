@@ -117,6 +117,6 @@ app.listen(PORT, function(err){
  
 }).catch(function(err) {
  
-    console.log(err, "Something went wrong with the Database Update!")
+    console.log(err, "Something Went Wrong with the Database Update!")
  
 });

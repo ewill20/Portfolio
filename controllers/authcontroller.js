@@ -265,6 +265,30 @@ exports.webPortCN = function(req,res){
   
 }
 
+exports.design = function(req,res){
+
+  res.render('design');
+  
+}
+
+exports.designCN = function(req,res){
+
+  res.render('designCN');
+  
+}
+
+exports.designDE = function(req,res){
+
+  res.render('designDE');
+  
+}
+
+exports.designFR = function(req,res){
+
+  res.render('designFR');
+  
+}
+
 exports.logout = function(req,res){
 
   req.session.destroy(function(err) {

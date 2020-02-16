@@ -78,6 +78,14 @@ module.exports = function(app, passport) {
 
     app.get('/videoCN', authController.videoCN);
 
+    app.get('/design', authController.design);
+
+    app.get('/designCN', authController.designCN);
+
+    app.get('/designDE', authController.designDE);
+
+    app.get('/designFR', authController.designFR);
+
     app.post('/landing', function(req, res, next) {
         console.log("whatever");
         passport.authenticate('local-signup');
