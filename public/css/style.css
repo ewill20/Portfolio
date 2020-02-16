@@ -47,7 +47,11 @@ div.container-fluid {
 .col-md-4,
 .col-lg-4,
 .col-xl-4 {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+.row middle {
+    margin-bottom: 50px;
 }
 
 .bottom-panels {
