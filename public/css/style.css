@@ -66,6 +66,10 @@ div.container-fluid {
     margin-bottom: 50px;
 }
 
+.row .second {
+    margin-bottom: 100px;
+}
+
 .bottom-panels {
     margin-bottom: 100px;
 }
