@@ -302,7 +302,12 @@ color: #0086e3;
     text-align: center;
     font-size: 30px;
 }
-
+.panel .panel-header .panel-headercn {
+    color: orange;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
 .panel {
     margin-bottom: 0px;
 }
