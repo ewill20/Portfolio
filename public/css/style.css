@@ -163,9 +163,14 @@ color: #0086e3;
     margin-bottom: 0px !important;
     font-family: 'Acme', sans-serif;
     color: rgb(86, 86, 87);
-
 }
-
+#wellsFargo {
+    font-weight: bold;
+    font-size: 18px !important;
+    margin-bottom: 0px !important;
+    font-family: 'Acme', sans-serif;
+    color: rgb(86, 86, 87);
+}
 #travelsAbout {
     padding-bottom: 15px;
     font-family: 'Acme', sans-serif;
