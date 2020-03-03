@@ -130,7 +130,10 @@ color: #0086e3;
 #KU {
     padding-bottom: 20px;
     font-family: 'Acme', sans-serif;
-
+}
+#FullColl {
+    padding-bottom: 20px;
+    font-family: 'Acme', sans-serif;
 }
 
 #KUTitle {
@@ -145,7 +148,6 @@ color: #0086e3;
 #UCSD {
     padding-bottom: 20px;
     font-family: 'Acme', sans-serif;
-
 }
 
 #UCSDTitle {
@@ -419,7 +421,7 @@ header {
 	padding-top: 20px;
 }*/
 .panel-body {
-    height: 400px;
+    /* height: 400px; */
     padding: 10px;
 }
 
