@@ -256,7 +256,12 @@ color: #0086e3;
     font-size: 30pt;
     text-align: center;
 }
-
+.experience-title {
+    text-decoration: underline;
+}
+#experience-body{
+    font-size: 20px;
+}
 .card-text {
     font-size: 20px !important;
 }
