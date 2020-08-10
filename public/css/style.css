@@ -1,4 +1,5 @@
 /* Style all font awesome icons */
+
 html,
 body {
     display: flex;
@@ -43,7 +44,7 @@ div.container-fluid {
 
 #card-text {
     text-shadow: 1px 1px black;
-color: #0086e3;
+    color: #0086e3;
     font-size: 33px;
     margin-bottom: 0px;
 }
@@ -58,7 +59,6 @@ color: #0086e3;
 .card .video {
     padding: 0 5px 0 5px;
 }
-
 
 .mask {
     padding: 0 15px 0 15px !important;
@@ -76,7 +76,7 @@ color: #0086e3;
 .col-sm-4,
 .col-md-4,
 .col-lg-4,
-.col-xl-4  {
+.col-xl-4 {
     margin-bottom: 50px;
 }
 
@@ -84,7 +84,7 @@ color: #0086e3;
 .col-sm-2,
 .col-md-2,
 .col-lg-2,
-.col-xl-2  {
+.col-xl-2 {
     margin-bottom: 50px;
 }
 
@@ -132,6 +132,7 @@ color: #0086e3;
     padding-bottom: 20px;
     font-family: 'Acme', sans-serif;
 }
+
 #FullColl {
     padding-bottom: 20px;
     font-family: 'Acme', sans-serif;
@@ -167,6 +168,7 @@ color: #0086e3;
     font-family: 'Acme', sans-serif;
     color: rgb(86, 86, 87);
 }
+
 #WellsFargoTitle {
     font-weight: bold;
     font-size: 18px !important;
@@ -174,6 +176,7 @@ color: #0086e3;
     font-family: 'Acme', sans-serif;
     color: rgb(86, 86, 87);
 }
+
 #travelsAbout {
     padding-bottom: 15px;
     font-family: 'Acme', sans-serif;
@@ -257,17 +260,22 @@ color: #0086e3;
     font-size: 30pt;
     text-align: center;
 }
+
 .experience-title {
     text-decoration: underline;
 }
-#experience-body{
+
+#experience-body {
     font-size: 20px;
 }
+
 .card-text {
     font-size: 20px !important;
 }
 
+
 /* Add a hover effect if you want */
+
 .fa a:hover {
     opacity: 0.7;
 }
@@ -278,7 +286,6 @@ color: #0086e3;
     top: -720px;
     right: 80px;
     background-color: #ffffff;
-
     color: #ff4500;
     font-size: 25px;
     font-family: 'Acme', sans-serif;
@@ -287,10 +294,12 @@ color: #0086e3;
     border: solid lightgray 1px;
 }
 
+
 /*.FCpanel {
 	padding:20px 20px 20px 0;
 	margin:20px 0 0 20px;
 }*/
+
 .glyphicon {
     padding: 0 0 0 10px;
 }
@@ -315,12 +324,14 @@ color: #0086e3;
     text-align: center;
     font-size: 30px;
 }
+
 .panel .panel-header .panel-headercn {
     color: orange;
     font-family: 'Acme', sans-serif;
     text-align: center;
     font-size: 30px;
 }
+
 .panel {
     margin-bottom: 0px;
 }
@@ -354,9 +365,11 @@ h2 {
     font-family: 'Acme', sans-serif;
 }
 
+
 /* Set a specific color for each brand 
 }
 /* Facebook */
+
 .fa-facebook {
     background: #3B5998;
     color: white;
@@ -417,6 +430,7 @@ header {
     height: 74px;
 }
 
+
 /*#navbar-links {
 	position: relative;
 	right: 30px;
@@ -426,6 +440,7 @@ header {
 	margin: 0 20px 0 20px;
 	padding-top: 20px;
 }*/
+
 .panel-body {
     height: auto;
     padding: 10px;
@@ -476,7 +491,6 @@ a .about {
     padding: 10px 20px 10px 20px;
     box-shadow: 2px 3px 5px #888888;
     background-color: white;
-
 }
 
 #form8 {
@@ -588,17 +602,20 @@ footer {
     max-width: 100%;
 }
 
-#meShooting {
+
+/* #meShooting {
     max-width: 100%;
     max-height: 270px
-}
+} */
 
 #skillsPic {
     max-height: 270px;
     max-width: 100%;
 }
 
+
 /* Title */
+
 .navbar-brand {
     max-width: -webkit-fill-available;
     text-align: center;
@@ -635,21 +652,27 @@ footer {
     font-size: 25px;
 }
 
+
 /* {box-sizing:border-box}
 
 /* Slideshow container */
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
 }
 
+
 /* Hide the images by default */
+
 .mySlides {
     display: none;
 }
 
+
 /* Next & previous buttons */
+
 .prev,
 .next {
     cursor: pointer;
@@ -666,19 +689,25 @@ footer {
     user-select: none;
 }
 
+
 /* Position the "next button" to the right */
+
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
+
 /* On hover, add a black background color with a little bit see-through */
+
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+
 /* Caption text */
+
 .text {
     color: #f2f2f2;
     -webkit-text-stroke: 1.5px black;
@@ -691,7 +720,9 @@ footer {
     text-align: center;
 }
 
+
 /* Number text (1/10) */
+
 .numbertext {
     color: #f2f2f2;
     font-size: 15px;
@@ -700,7 +731,9 @@ footer {
     top: 0;
 }
 
+
 /* The dots/bullets/indicators */
+
 .dot {
     cursor: pointer;
     height: 15px;
@@ -717,7 +750,9 @@ footer {
     background-color: #717171;
 }
 
+
 /* Fading animation */
+
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 4.0s;
@@ -729,7 +764,6 @@ footer {
     from {
         opacity: .4
     }
-
     to {
         opacity: 1
     }
@@ -739,11 +773,11 @@ footer {
     from {
         opacity: .4
     }
-
     to {
         opacity: 1
     }
 }
+
 .circle {
     border-radius: 50%;
     background-color: #eb2c1e;
@@ -752,14 +786,15 @@ footer {
     position: absolute;
     opacity: 0;
     animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
-  }
-  @keyframes scaleIn {
+}
+
+@keyframes scaleIn {
     from {
-      transform: scale(.5, .5);
-      opacity: .5;
+        transform: scale(.5, .5);
+        opacity: .5;
     }
     to {
-      transform: scale(2.5, 2.5);
-      opacity: 0;
+        transform: scale(2.5, 2.5);
+        opacity: 0;
     }
-  }
+}
