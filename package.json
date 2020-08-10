@@ -21,7 +21,7 @@
     "fs": "0.0.1-security",
     "handlebars": "^4.4.5",
     "inquirer": "^4.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "json": "^9.0.6",
     "local": "^0.3.3",
     "mocha": "^4.1.0",
