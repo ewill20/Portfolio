@@ -24,7 +24,7 @@ module.exports = function(app, passport) {
 
     app.get('/video', authController.video);
 
-    app.get('/prototypes', authController.prototypes);
+    app.get('/travel', authController.travel);
 
     app.get('/lang', authController.lang);
 

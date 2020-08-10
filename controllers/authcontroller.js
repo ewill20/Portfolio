@@ -102,9 +102,9 @@ exports.video = function(req, res) {
 
 }
 
-exports.prototypes = function(req, res) {
+exports.travel = function(req, res) {
 
-    res.render('prototypes');
+    res.render('travel');
 
 }
 
