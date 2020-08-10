@@ -1,298 +1,309 @@
-
 var exports = module.exports = {}
 
-exports.main = function (req,res) {
+exports.main = function(req, res) {
 
-  res.render('main');
-  
-}
-exports.landing = function(req,res){
-
-	res.render('landing'); 
+    res.render('main');
 
 }
-exports.about = function(req,res) {
+exports.landing = function(req, res) {
 
-  res.render('about');
+    res.render('landing');
 
 }
-exports.berlin = function(req,res) {
+exports.about = function(req, res) {
 
-  res.render('berlin');
+    res.render('about');
+
+}
+exports.berlin = function(req, res) {
+
+    res.render('berlin');
 
 }
 exports.popDestinations = function(req, res) {
 
-  res.render('popDestinations');
-  
+    res.render('popDestinations');
+
 }
 exports.kyoto = function(req, res) {
 
-  res.render('kyoto');
+    res.render('kyoto');
 
 }
 exports.paris = function(req, res) {
 
-  res.render('paris');
+    res.render('paris');
 
 }
 exports.hangzhou = function(req, res) {
-  
-  res.render('hangzhou');
-  
-}
-exports.contact = function(req,res) {
 
-  res.render('contact');
+    res.render('hangzhou');
 
 }
-exports.signup = function(req,res){
-  
-    res.render('signup'); 
-  
-}
-exports.signin = function(req,res){
+exports.contact = function(req, res) {
 
-	res.render('signin'); 
+    res.render('contact');
 
 }
-exports.profile = function(req,res){
+exports.signup = function(req, res) {
 
-	res.render('profile'); 
-
-}
-exports.home = function(req,res){
-
-  res.render('home'); 
+    res.render('signup');
 
 }
+exports.signin = function(req, res) {
 
-exports.webPort = function(req,res){
+    res.render('signin');
 
-  res.render('webPort'); 
+}
+exports.profile = function(req, res) {
+
+    res.render('profile');
+
+}
+exports.home = function(req, res) {
+
+    res.render('home');
 
 }
 
-exports.experience = function(req,res){
+exports.webPort = function(req, res) {
 
-  res.render('experience'); 
-
-}
-
-exports.education = function(req,res){
-
-  res.render('education'); 
+    res.render('webPort');
 
 }
 
-exports.photo = function(req,res){
+exports.experience = function(req, res) {
 
-  res.render('photo'); 
-
-}
-
-exports.skills = function(req,res){
-
-  res.render('skills'); 
+    res.render('experience');
 
 }
 
-exports.video = function(req,res){
+exports.education = function(req, res) {
 
-  res.render('video'); 
-
-}
-
-exports.homeFR = function(req,res){
-
-  res.render('homeFR');
+    res.render('education');
 
 }
 
-exports.aboutFR = function(req,res){
+exports.photo = function(req, res) {
 
-  res.render('aboutFR');
-  
+    res.render('photo');
+
 }
 
-exports.contactFR = function(req,res){
+exports.skills = function(req, res) {
 
-  res.render('contactFR');
-  
+    res.render('skills');
+
 }
 
-exports.educationFR = function(req,res){
+exports.video = function(req, res) {
 
-  res.render('educationFR');
-  
+    res.render('video');
+
 }
 
-exports.experienceFR = function(req,res){
+exports.prototypes = function(req, res) {
 
-  res.render('experienceFR');
-  
+    res.render('prototypes');
+
 }
 
-exports.photoFR = function(req,res){
+exports.lang = function(req, res) {
 
-  res.render('photoFR');
-  
+    res.render('lang');
+
 }
 
-exports.skillsFR = function(req,res){
+exports.homeFR = function(req, res) {
 
-  res.render('skillsFR');
-  
+    res.render('homeFR');
+
 }
 
-exports.videoFR = function(req,res){
+exports.aboutFR = function(req, res) {
 
-  res.render('videoFR');
-  
+    res.render('aboutFR');
+
 }
 
-exports.webPortFR = function(req,res){
+exports.contactFR = function(req, res) {
 
-  res.render('webPortFR');
-  
+    res.render('contactFR');
+
 }
 
-exports.homeDE = function(req,res){
+exports.educationFR = function(req, res) {
 
-  res.render('homeDE');
-  
+    res.render('educationFR');
+
 }
 
-exports.aboutDE = function(req,res){
+exports.experienceFR = function(req, res) {
 
-  res.render('aboutDE');
-  
+    res.render('experienceFR');
+
 }
 
-exports.contactDE = function(req,res){
+exports.photoFR = function(req, res) {
 
-  res.render('contactDE');
-  
+    res.render('photoFR');
+
 }
 
-exports.educationDE = function(req,res){
+exports.skillsFR = function(req, res) {
 
-  res.render('educationDE');
-  
+    res.render('skillsFR');
+
 }
 
-exports.experienceDE = function(req,res){
+exports.videoFR = function(req, res) {
 
-  res.render('experienceDE');
-  
+    res.render('videoFR');
+
 }
 
-exports.photoDE = function(req,res){
+exports.webPortFR = function(req, res) {
 
-  res.render('photoDE');
-  
+    res.render('webPortFR');
+
 }
 
-exports.skillsDE = function(req,res){
+exports.homeDE = function(req, res) {
 
-  res.render('skillsDE');
-  
+    res.render('homeDE');
+
 }
 
-exports.videoDE = function(req,res){
+exports.aboutDE = function(req, res) {
 
-  res.render('videoDE');
-  
+    res.render('aboutDE');
+
 }
 
-exports.webPortDE = function(req,res){
+exports.contactDE = function(req, res) {
 
-  res.render('webPortDE');
-  
+    res.render('contactDE');
+
 }
 
-exports.homeCN = function(req,res){
+exports.educationDE = function(req, res) {
 
-  res.render('homeCN');
-  
+    res.render('educationDE');
+
 }
 
-exports.aboutCN = function(req,res){
+exports.experienceDE = function(req, res) {
 
-  res.render('aboutCN');
-  
+    res.render('experienceDE');
+
 }
 
-exports.contactCN = function(req,res){
+exports.photoDE = function(req, res) {
 
-  res.render('contactCN');
-  
+    res.render('photoDE');
+
 }
 
-exports.educationCN = function(req,res){
+exports.skillsDE = function(req, res) {
 
-  res.render('educationCN');
-  
+    res.render('skillsDE');
+
 }
 
-exports.experienceCN = function(req,res){
+exports.videoDE = function(req, res) {
 
-  res.render('experienceCN');
-  
+    res.render('videoDE');
+
 }
 
-exports.photoCN = function(req,res){
+exports.webPortDE = function(req, res) {
 
-  res.render('photoCN');
-  
+    res.render('webPortDE');
+
 }
 
-exports.skillsCN = function(req,res){
+exports.homeCN = function(req, res) {
 
-  res.render('skillsCN');
-  
+    res.render('homeCN');
+
 }
 
-exports.videoCN = function(req,res){
+exports.aboutCN = function(req, res) {
 
-  res.render('videoCN');
-  
+    res.render('aboutCN');
+
 }
 
-exports.webPortCN = function(req,res){
+exports.contactCN = function(req, res) {
 
-  res.render('webPortCN');
-  
+    res.render('contactCN');
+
 }
 
-exports.design = function(req,res){
+exports.educationCN = function(req, res) {
 
-  res.render('design');
-  
+    res.render('educationCN');
+
 }
 
-exports.designCN = function(req,res){
+exports.experienceCN = function(req, res) {
 
-  res.render('designCN');
-  
+    res.render('experienceCN');
+
 }
 
-exports.designDE = function(req,res){
+exports.photoCN = function(req, res) {
 
-  res.render('designDE');
-  
+    res.render('photoCN');
+
 }
 
-exports.designFR = function(req,res){
+exports.skillsCN = function(req, res) {
 
-  res.render('designFR');
-  
+    res.render('skillsCN');
+
 }
 
-exports.logout = function(req,res){
+exports.videoCN = function(req, res) {
 
-  req.session.destroy(function(err) {
-  res.redirect('/landing');
-  });
+    res.render('videoCN');
+
+}
+
+exports.webPortCN = function(req, res) {
+
+    res.render('webPortCN');
+
+}
+
+exports.design = function(req, res) {
+
+    res.render('design');
+
+}
+
+exports.designCN = function(req, res) {
+
+    res.render('designCN');
+
+}
+
+exports.designDE = function(req, res) {
+
+    res.render('designDE');
+
+}
+
+exports.designFR = function(req, res) {
+
+    res.render('designFR');
+
+}
+
+exports.logout = function(req, res) {
+
+    req.session.destroy(function(err) {
+        res.redirect('/landing');
+    });
 
 }
