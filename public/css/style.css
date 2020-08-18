@@ -607,18 +607,17 @@ footer {
     max-width: 100%;
 }
 
-
-/* #meShooting {
-    max-width: 100%;
-    max-height: 270px
-} */
-
 #skillsPic {
     max-height: -webkit-fill-available;
     max-width: 100%;
 }
 
 #langTravel {
+    max-height: -webkit-fill-available;
+    max-width: 100%;
+}
+
+#videography {
     max-height: -webkit-fill-available;
     max-width: 100%;
 }
