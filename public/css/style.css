@@ -588,7 +588,7 @@ footer {
 }
 
 #WebDevSS {
-    max-height: 100%;
+    max-height: -webkit-fill-available;
     max-width: 100%;
 }
 
@@ -602,6 +602,11 @@ footer {
     max-width: 100%;
 }
 
+#TAT {
+    max-height: -webkit-fill-available;
+    max-width: 100%;
+}
+
 
 /* #meShooting {
     max-width: 100%;
@@ -609,7 +614,12 @@ footer {
 } */
 
 #skillsPic {
-    max-height: 270px;
+    max-height: -webkit-fill-available;
+    max-width: 100%;
+}
+
+#langTravel {
+    max-height: -webkit-fill-available;
     max-width: 100%;
 }
 
