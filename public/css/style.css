@@ -612,12 +612,17 @@ footer {
     max-width: 100%;
 }
 
-#langTravel {
+#langLogo {
     max-height: -webkit-fill-available;
     max-width: 100%;
 }
 
 #videography {
+    max-height: -webkit-fill-available;
+    max-width: 100%;
+}
+
+#meShooting {
     max-height: -webkit-fill-available;
     max-width: 100%;
 }
