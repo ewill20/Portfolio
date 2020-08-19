@@ -603,17 +603,17 @@ footer {
 }
 
 #TAT {
-    max-height: -webkit-fill-available;
+    max-height: 450px;
     max-width: 100%;
 }
 
 #skillsPic {
-    max-height: -webkit-fill-available;
+    max-height: 500px;
     max-width: 100%;
 }
 
 #langLogo {
-    max-height: -webkit-fill-available;
+    max-height: 450px;
     max-width: 100%;
 }
 
@@ -623,7 +623,7 @@ footer {
 }
 
 #meShooting {
-    max-height: -webkit-fill-available;
+    max-height: 450px;
     max-width: 100%;
 }
 
