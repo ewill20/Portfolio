@@ -587,8 +587,8 @@ footer {
     overflow: wrap
 }
 
-#WebDevSS {
-    max-height: 100%;
+#WebDevS {
+    max-height: 500px !important;
     max-width: 100%;
 }
 
