@@ -588,7 +588,7 @@ footer {
 }
 
 #WebDevSS {
-    max-height: -webkit-fill-available;
+    max-height: 100%;
     max-width: 100%;
 }
 
@@ -612,8 +612,13 @@ footer {
     max-width: 100%;
 }
 
-#langLogo {
+#travelLogo {
     max-height: 450px;
+    max-width: 100%;
+}
+
+#langTravel {
+    max-height: 500px;
     max-width: 100%;
 }
 
