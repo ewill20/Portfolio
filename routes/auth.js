@@ -14,6 +14,8 @@ module.exports = function(app, passport) {
 
     app.get('/webPort', authController.webPort);
 
+    app.get('/design', authController.design);
+
     app.get('/experience', authController.experience);
 
     app.get('/education', authController.education);
@@ -34,9 +36,15 @@ module.exports = function(app, passport) {
 
     app.get('/contactFR', authController.contactFR);
 
+    app.get('/designFR', authController.designFR);
+
     app.get('/educationFR', authController.educationFR);
 
     app.get('/experienceFR', authController.experienceFR);
+
+    app.get('/langFR', authController.langFR);
+
+    app.get('/travelFR', authController.travelFR);
 
     app.get('/photoFR', authController.photoFR);
 
@@ -52,9 +60,15 @@ module.exports = function(app, passport) {
 
     app.get('/contactDE', authController.contactDE);
 
+    app.get('/designDE', authController.designDE);
+
     app.get('/educationDE', authController.educationDE);
 
     app.get('/experienceDE', authController.experienceDE);
+
+    app.get('/langDE', authController.langDE);
+
+    app.get('/travelDE', authController.travelDE);
 
     app.get('/photoDE', authController.photoDE);
 
@@ -72,23 +86,21 @@ module.exports = function(app, passport) {
 
     app.get('/webPortCN', authController.webPortCN);
 
+    app.get('/designCN', authController.designCN);
+
     app.get('/experienceCN', authController.experienceCN);
 
     app.get('/educationCN', authController.educationCN);
+
+    app.get('/langCN', authController.langCN);
+
+    app.get('/travelCN', authController.travelCN);
 
     app.get('/photoCN', authController.photoCN);
 
     app.get('/skillsCN', authController.skillsCN);
 
     app.get('/videoCN', authController.videoCN);
-
-    app.get('/design', authController.design);
-
-    app.get('/designCN', authController.designCN);
-
-    app.get('/designDE', authController.designDE);
-
-    app.get('/designFR', authController.designFR);
 
     app.post('/landing', function(req, res, next) {
         console.log("whatever");

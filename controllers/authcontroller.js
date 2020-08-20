@@ -300,6 +300,41 @@ exports.designFR = function(req, res) {
 
 }
 
+exports.langCN = function(req, res) {
+
+    res.render('langCN');
+
+}
+
+exports.langDE = function(req, res) {
+
+    res.render('langDE');
+
+}
+
+exports.langFR = function(req, res) {
+
+    res.render('langFR');
+
+}
+exports.travelCN = function(req, res) {
+
+    res.render('travelCN');
+
+}
+
+exports.travelDE = function(req, res) {
+
+    res.render('travelDE');
+
+}
+
+exports.travelFR = function(req, res) {
+
+    res.render('travelFR');
+
+}
+
 exports.logout = function(req, res) {
 
     req.session.destroy(function(err) {
