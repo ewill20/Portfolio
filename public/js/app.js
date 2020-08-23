@@ -2,10 +2,6 @@ $(document).ready(function() {
     console.log("The document is ready and raring to go!");
 });
 
-Set - Cookie;
-flavor = choco;
-SameSite = None;
-Secure
 
 // function initMap() {
 // 	// Create a map object and specify the DOM element for display //
