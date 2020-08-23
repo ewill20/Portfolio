@@ -342,6 +342,11 @@ div.container-fluid {
     margin-bottom: 0px;
 }
 
+.Contact {
+    height: 40px;
+    width: 40px;
+}
+
 .panel .panel-header {
     color: #00b8e6;
     font-family: 'Acme', sans-serif;
