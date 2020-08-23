@@ -79,6 +79,7 @@ export class DatabaseError extends BaseError implements CommonErrorProperties {
   public readonly parent: Error;
   public readonly original: Error;
   public readonly sql: string;
+  public readonly parameters: Array<any>;
   /**
    * A base class for all database related errors.
    * @param parent The database specific error which triggered this one
@@ -174,3 +175,20 @@ export class InvalidConnectionError extends ConnectionError {}
  * Thrown when a connection to a database times out
  */
 export class ConnectionTimedOutError extends ConnectionError {}
+
+/**
+ * Thrown when queued operations were aborted because a connection was closed
+ */
+export class AsyncQueueError extends BaseError {}
+
+export class AggregateError extends BaseError {
+  /**
+   * AggregateError. A wrapper for multiple errors.
+   *
+   * @param {Error[]} errors  The aggregated errors that occurred
+   */
+  constructor(errors: Error[]);
+
+  /** the aggregated errors that occurred */
+  public readonly  errors: Error[];
+}
