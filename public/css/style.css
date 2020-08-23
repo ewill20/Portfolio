@@ -199,20 +199,20 @@ div.container-fluid {
 #europeTitle,
 #asiaTitle {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 35px;
     font-family: 'Acme', sans-serif;
     color: rgb(86, 86, 87);
 }
 
 #codingLanguagesHeader {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 35px;
     font-family: 'Acme', sans-serif;
     color: rgb(86, 86, 87);
 }
 
 #codingLanguages {
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Acme', sans-serif;
     color: #777;
 }
@@ -221,7 +221,7 @@ div.container-fluid {
 #German,
 #French,
 #Chinese {
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Acme', sans-serif;
     color: rgb(86, 86, 87);
 }
