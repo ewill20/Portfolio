@@ -146,7 +146,7 @@ div.container-fluid {
 
 #KUTitle {
     font-weight: bold;
-    font-size: 18px !important;
+    font-size: 35px !important;
     margin-bottom: 0px !important;
     padding-bottom: -10px !important;
     font-family: 'Acme', sans-serif;
@@ -160,7 +160,7 @@ div.container-fluid {
 
 #UCSDTitle {
     font-weight: bold;
-    font-size: 18px !important;
+    font-size: 35px !important;
     margin-bottom: 0px !important;
     padding-bottom: -10px;
     font-family: 'Acme', sans-serif;
@@ -169,7 +169,7 @@ div.container-fluid {
 
 #FullCollTitle {
     font-weight: bold;
-    font-size: 18px !important;
+    font-size: 35px !important;
     margin-bottom: 0px !important;
     font-family: 'Acme', sans-serif;
     color: rgb(86, 86, 87);
@@ -177,7 +177,7 @@ div.container-fluid {
 
 #WellsFargoTitle {
     font-weight: bold;
-    font-size: 18px !important;
+    font-size: 35px !important;
     margin-bottom: 0px !important;
     font-family: 'Acme', sans-serif;
     color: rgb(86, 86, 87);
