@@ -345,6 +345,7 @@ div.container-fluid {
 .Contact {
     height: 40px;
     width: 40px;
+    padding: 5px 0px 5px 0px;
 }
 
 .panel .panel-header {
