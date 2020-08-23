@@ -352,7 +352,7 @@ div.container-fluid {
     color: #00b8e6;
     font-family: 'Acme', sans-serif;
     text-align: center;
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 
 .connect2 {
@@ -430,6 +430,10 @@ header {
     margin: 40px 0 20px 200px;
     padding: 10px 20px 10px 20px;
     border: solid lightgray 1px;
+}
+
+.panel {
+    font-size: 40px;
 }
 
 .name {
