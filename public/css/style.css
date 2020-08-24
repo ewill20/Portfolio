@@ -159,6 +159,15 @@ div.container-fluid {
     font-size: x-large;
 }
 
+#AboutText {
+    font-weight: bold;
+    font-size: 30px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: -10px !important;
+    font-family: 'Acme', sans-serif;
+    color: rgb(86, 86, 87);
+}
+
 #KUTitle {
     font-weight: bold;
     font-size: 30px !important;
