@@ -129,19 +129,34 @@ div.container-fluid {
     padding-bottom: 10px;
 }
 
-#KU {
-    padding-bottom: 20px;
-    font-family: 'Acme', sans-serif;
-}
-
 #RVS {
     padding-bottom: 20px;
     font-family: 'Acme', sans-serif;
+    font-size: x-large;
+}
+
+#ZJUT {
+    padding-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+}
+
+#KU {
+    padding-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
 }
 
 #FullColl {
     padding-bottom: 20px;
     font-family: 'Acme', sans-serif;
+    font-size: x-large;
+}
+
+#wellsFargo {
+    padding-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
 }
 
 #KUTitle {
