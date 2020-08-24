@@ -499,10 +499,7 @@ a .about {
     font-style: bold;
 }
 
-#form3,
-#form2,
-#form34,
-#form8 {
+.contactLabel {
     font-size: initial;
 }
 
