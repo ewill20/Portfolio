@@ -92,6 +92,10 @@ div.container-fluid {
     margin-bottom: 100px;
 }
 
+.row .top .third {
+    margin: 15px 0 15px 0;
+}
+
 .bottom-panels {
     margin-bottom: 100px;
 }
