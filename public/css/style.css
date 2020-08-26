@@ -28,12 +28,13 @@ div.container-fluid {
     padding-bottom: 100px !important;
 }
 
-#card-textFR {
+
+/* #card-textFR {
     text-shadow: 1px 1px black;
     color: #a8d1ec;
     font-size: 33px;
     margin-bottom: 0px;
-}
+} */
 
 #card-textDE {
     text-shadow: 1px 1px black;
